@@ -3,6 +3,27 @@
  * Contient tous les textes utilisés dans les différentes pages du site.
  * Permet une gestion centralisée du contenu et facilite les modifications futures.
  */
+
+import {
+  BookOpen,
+  Bot,
+  Briefcase,
+  Code2,
+  Command,
+  FolderGit2,
+  Frame,
+  GraduationCap,
+  LifeBuoy,
+  Mail,
+  Map,
+  PieChart,
+  Send,
+  Settings2,
+  Sparkles,
+  SquareTerminal,
+  User,
+} from "lucide-react"
+
 export const DataText = {
     home: {
         myName: "Aboubacar SYLLA",
@@ -137,7 +158,8 @@ export const DataText = {
         multiLang: "Changer de langue",
         themeChange: "Changer de thème",
         avaibility: "Disponible",
-        downloadCv: "Télécharger le CV"
+        downloadCv: "Télécharger le CV",
+        
     },
 
     sideItems: {
@@ -154,18 +176,175 @@ export const DataText = {
     footer: {
         me: "Aboubacar SYLLA",
 
-        aboutMe: `
-            Développeur full-stack passionné par la création d’applications modernes,
-            performantes et accessibles.
-        `,
+        aboutMe: "aboutMe",
 
 
-        followMe: "Retrouvez-moi",
+        followMe: "followMe",
 
         copyright:
-            `© ${new Date().getFullYear()} Aboubacar SYLLA. Tous droits réservés.`,
+            `© ${new Date().getFullYear()} Aboubacar SYLLA. `,
+        
+        copyrightLaw:"copyrightLaw",
 
-        comment:
-            "Conçu et développé à Liège, Belgique."
+        comment: "comment"
     }
+}
+
+
+export const data = {
+  user: {
+    name: "shadcn",
+    email: "m@example.com",
+    avatar: "/avatars/shadcn.jpg",
+  },
+  navMain: [
+    {
+      title: "menu",
+      url: "#",
+      icon: SquareTerminal,
+      isActive: true,
+      items: [
+        {
+          title: "about",
+          url: "/",
+          icon: User,
+          isActive: true,
+        },
+        {
+          title: "experience",
+          url: "/experiences",
+          icon: Briefcase,
+        },
+        {
+          title: "competence",
+          url: "/competences",
+          icon: Sparkles,
+        },
+        {
+          title: "project",
+          url: "/projects",
+          icon: FolderGit2,
+        },
+        {
+          title: "skill",
+          url: "/skills",
+          icon: Code2,
+        },
+        {
+          title: "school",
+          url: "/studies",
+          icon: GraduationCap,
+        },
+        {
+          title: "contact",
+          url: "/contacts",
+          icon: Mail,
+        },
+      ],
+    },
+    {
+      title: "models",
+      url: "#",
+      icon: Bot,
+      items: [
+        {
+          title: "genesis",
+          url: "/competences",
+        },
+        {
+          title: "explorer",
+          url: "/competences",
+          icon: Bot,
+        },
+        {
+          title: "quantum",
+          url: "/competences",
+          icon: Bot,
+        },
+      ],
+    },
+    {
+      title: "documentation",
+      url: "#",
+      icon: BookOpen,
+      items: [
+        {
+          title: "introduction",
+          url: "/competences",
+          icon: BookOpen,
+        },
+        {
+          title: "getStarted",
+          url: "/competences",
+          icon: BookOpen,
+        },
+        {
+          title: "cutorials",
+          url: "/competences",
+          icon: BookOpen,
+        },
+        {
+          title: "changelog",
+          url: "/competences",
+          icon: BookOpen,
+        },
+      ],
+    },
+    {
+      title: "settings",
+      url: "#",
+      icon: Settings2,
+      items: [
+        {
+          title: "general",
+          url: "/competences",
+          icon: Settings2,
+        },
+        {
+          title: "team",
+          url: "/competences",
+          icon: Settings2,
+        },
+        {
+          title: "billing",
+          url: "/competences",
+          icon: Settings2,
+        },
+        {
+          title: "limits",
+          url: "/competences",
+          icon: Settings2,
+        },
+      ],
+    },
+  ],
+  navSecondary: [
+    {
+      title: "support",
+      url: "/competences",
+      icon: LifeBuoy,
+    },
+    {
+      title: "feedback",
+      url: "/competences",
+      icon: Send,
+    },
+  ],
+  projects: [
+    {
+      name: "designEngineering",
+      url: "/competences",
+      icon: Frame,
+    },
+    {
+      name: "salesMarketing",
+      url: "/competences",
+      icon: PieChart,
+    },
+    {
+      name: "travel",
+      url: "/competences",
+      icon: Map,
+    },
+  ],
 }

@@ -1,0 +1,162 @@
+{
+  "appSidebar": {
+    "title": "NAVIGATION",
+    "menu": {
+      "title": "MENU",
+      "about": "About",
+      "experience": "Experiences",
+      "competence": "Competences",
+      "project": "Projects",
+      "skill": "Skills",
+      "school": "Studies",
+      "contact": "Contacts"
+    },
+    "models": {
+      "title": "Models",
+      "genesis": "Genesis",
+      "explorer": "Explorer",
+      "quantum": "Quantum"
+    },
+    "documentation": {
+      "title": "Documentation",
+      "introduction": "Introduction",
+      "getStarted": "Get Started",
+      "cutorials": "Cutorials",
+      "changelog": "Changelog"
+    },
+    "settings": {
+      "title": "Settings",
+      "general": "General",
+      "team": "Team",
+      "billing": "Billing",
+      "limits": "Limits"
+    },
+    "navSecond": {
+      "support": "Support",
+      "feedback": "Feedback"
+    },
+    "projects": {    
+      "title": "Projects",
+      "designEngineering": "Design Engineering",
+      "salesMarketing": "Sales & Marketing",
+      "travel": "Travel"
+    }
+  },
+  "navigationBar": {
+    "about": "About",
+    "experience": "Experiences",
+    "competence": "Competences",
+    "project": "Projects",
+    "skill": "Skills",
+    "school": "Studies",
+    "contact": "Contacts",
+    "availability": "Available",
+    "downloadCv": "Download the CV"
+  },
+  "footer": {
+    "aboutMe": "A full-stack developer passionate about building modern, high-performance, and accessible applications.",
+    "followMe": "Find me",
+    "copyrightLaw": "All rights reserved",
+    "comment": "Designed and developed in Liège, Belgium."
+  },
+  "Nav": { "home": "Home", "about": "About" },
+  "Home": {
+    "title": "Welcome to my portfolio",
+    "subtitle": "React & Next.js developer",
+    "cta": "See my projects"
+  },
+  "About": {
+    "title": "About me",
+    "body": "A few words about my background and skills."
+  },
+  "Language": { "label": "Language", "fr": "French", "en": "English" },
+  "Meta": {
+    "homeTitle": "Portfolio — Home",
+    "homeDesc": "Portfolio of a React & Next.js developer.",
+    "aboutTitle": "About — Portfolio",
+    "aboutDesc": "My background, skills and toolset."
+  },
+  "Common": {
+    "downloadCV": "Download CV",
+    "cvFileName": "Resume-Aboubacar-Sylla"
+  },
+  "Profile": {
+    "name": "Aboubacar SYLLA",
+    "role": "Full-Stack Developer · React & Node.js Specialist",
+    "initials": "AS",
+    "status": "Available for projects",
+    "bio": "I craft polished interfaces and high-performance web applications. Passionate about detail, accessibility and user experience."
+  },
+  "Sections": {
+    "contact": "Contact",
+    "experiences": "Experience",
+    "competences": "Core Skills",
+    "skills": "Technical Skills",
+    "projets": "Projects",
+    "etudes": "Education",
+    "stack": "Stack",
+    "period": "Period"
+  },
+  "Contact": {
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "locationValue": "Paris, France"
+  },
+  "Experiences": {
+    "current": "Present",
+    "items": [
+      {
+        "role": "Lead Front-End Developer",
+        "company": "Acme Corp",
+        "period": "2023 — Present",
+        "desc": "Redesigned the SaaS platform, implemented the design system, mentored a team of 4 developers."
+      },
+      {
+        "role": "Full-Stack Developer",
+        "company": "Studio Numérique",
+        "period": "2021 — 2023",
+        "desc": "Built React / Node.js applications for e-commerce and media clients."
+      },
+      {
+        "role": "Junior Web Developer",
+        "company": "Webagency",
+        "period": "2019 — 2021",
+        "desc": "Built showcase websites, maintenance and performance optimization."
+      }
+    ]
+  },
+  "Competences": {
+    "items": [
+      { "title": "Front-End Architecture", "desc": "Designing scalable and performant applications." },
+      { "title": "Design System", "desc": "Building consistent component libraries." },
+      { "title": "Accessibility", "desc": "WCAG compliance and inclusive UX." },
+      { "title": "Web Performance", "desc": "Core Web Vitals and technical SEO optimization." }
+    ]
+  },
+  "Skills": {
+    "groups": [
+      { "name": "Languages", "items": ["TypeScript", "JavaScript", "Python", "SQL"] },
+      { "name": "Frameworks", "items": ["React", "Next.js", "Node.js", "Express", "TanStack"] },
+      { "name": "Tools", "items": ["Git", "Docker", "Figma", "Vite", "Tailwind CSS"] },
+      { "name": "Databases", "items": ["PostgreSQL", "MongoDB", "Redis"] }
+    ]
+  },
+  "Projets": {
+    "items": [
+      { "name": "E-Learning Platform", "desc": "LMS app with interactive learning paths and certifications.", "tags": ["Next.js", "Postgres", "Stripe"] },
+      { "name": "Analytics Dashboard", "desc": "Real-time dashboard for tracking business KPIs.", "tags": ["React", "WebSocket", "D3"] },
+      { "name": "Artisan Marketplace", "desc": "Marketplace for local artisans with integrated payments.", "tags": ["TanStack", "Supabase"] },
+      { "name": "Fitness Mobile App", "desc": "Workout tracking and personalized progression.", "tags": ["React Native", "Node"] }
+    ]
+  },
+  "Etudes": {
+    "items": [
+      { "title": "Master's in Computer Science — Software Engineering", "school": "Université Paris-Saclay", "period": "2017 — 2019" },
+      { "title": "Bachelor's in Computer Science", "school": "Université de Lyon", "period": "2014 — 2017" },
+      { "title": "Scientific Baccalaureate — Honors", "school": "Lycée Henri IV", "period": "2014" }
+    ]
+  } 
+}

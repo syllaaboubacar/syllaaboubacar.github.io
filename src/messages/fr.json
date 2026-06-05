@@ -1,0 +1,162 @@
+{
+  "appSidebar": {
+    "title": "NAVIGATION",
+    "menu": {
+      "title": "MENU",
+      "about": "A propos",
+      "experience": "Expériences",
+      "competence": "Compétences",
+      "project": "Projets",
+      "skill": "Skills",
+      "school": "Etudes",
+      "contact": "Contacts"
+    },
+    "models": {
+      "title": "Modèles",
+      "genesis": "Genèse",
+      "explorer": "Explore",
+      "quantum": "Quantité"
+    },
+    "documentation": {
+      "title": "Documentation",
+      "introduction": "Introduction",
+      "getStarted": "Commencer",
+      "cutorials": "Tutoriels",
+      "changelog": "Change Log"
+    },
+    "settings": {
+      "title": "Paramètres",
+      "general": "Général",
+      "team": "Equipe",
+      "billing": "Facturation",
+      "limits": "Limites"
+    },
+    "navSecond": {
+      "support": "Assistance",
+      "feedback": "Commentaires."
+    },
+    "projects": {    
+      "title": "Projets",
+      "designEngineering": "Ingénierie de conception",
+      "salesMarketing": "Vente & Marketing",
+      "travel": "Voyage"
+    }
+  },
+  "navigationBar": {
+    "about": "A propos",
+    "experience": "Expériences",
+    "competence": "Compétences",
+    "project": "Projets",
+    "skill": "Skills",
+    "school": "Etudes",
+    "contact": "Contacts",
+    "availability": "Disponible",
+    "downloadCv": "Télécharger le CV"
+  },
+  "footer": {
+    "aboutMe": "Développeur full-stack passionné par la création d'applications modernes,performantes et accessibles.",
+    "followMe": "Retrouvez-moi",
+    "copyrightLaw": "Tous droits réservés",
+    "comment": "Conçu et développé à Liège, Belgique."
+  },
+  "Nav": { "home": "Accueil", "about": "À propos" },
+  "Home": {
+    "title": "Bienvenue sur mon portfolio",
+    "subtitle": "Développeur React & Next.js",
+    "cta": "Voir mes projets"
+  },
+  "About": {
+    "title": "À propos de moi",
+    "body": "Quelques mots sur mon parcours et mes compétences."
+  },
+  "Language": { "label": "Langue", "fr": "Français", "en": "Anglais" },
+  "Meta": {
+    "homeTitle": "Portfolio — Accueil",
+    "homeDesc": "Portfolio de développeur React & Next.js.",
+    "aboutTitle": "À propos — Portfolio",
+    "aboutDesc": "Mon parcours, mes compétences et mes outils."
+  },
+  "Common": {
+    "downloadCV": "Télécharger le CV",
+    "cvFileName": "CV-Aboubacar-Sylla"
+  },
+  "Profile": {
+    "name": "Aboubacar SYLLA",
+    "role": "Développeur Full-Stack · Spécialisé React & Node.js",
+    "initials": "AS",
+    "status": "Disponible pour missions",
+    "bio": "Je conçois des interfaces soignées et des applications web performantes. Passionné par le détail, l'accessibilité et l'expérience utilisateur."
+  },
+  "Sections": {
+    "contact": "Contact",
+    "experiences": "Expériences",
+    "competences": "Compétences",
+    "skills": "Compétences techniques",
+    "projets": "Projets",
+    "etudes": "Études",
+    "stack": "Stack",
+    "period": "Période"
+  },
+  "Contact": {
+    "email": "Email",
+    "phone": "Téléphone",
+    "location": "Localisation",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "locationValue": "Paris, France"
+  },
+  "Experiences": {
+    "current": "Aujourd'hui",
+    "items": [
+      {
+        "role": "Lead Développeur Front-End",
+        "company": "Acme Corp",
+        "period": "2023 — Aujourd'hui",
+        "desc": "Refonte de la plateforme SaaS, mise en place du design system, encadrement d'une équipe de 4 développeurs."
+      },
+      {
+        "role": "Développeur Full-Stack",
+        "company": "Studio Numérique",
+        "period": "2021 — 2023",
+        "desc": "Développement d'applications React / Node.js pour des clients e-commerce et médias."
+      },
+      {
+        "role": "Développeur Web Junior",
+        "company": "Webagency",
+        "period": "2019 — 2021",
+        "desc": "Intégration de sites vitrines, maintenance et optimisation des performances."
+      }
+    ]
+  },
+  "Competences": {
+    "items": [
+      { "title": "Architecture Front-End", "desc": "Conception d'applications scalables et performantes." },
+      { "title": "Design System", "desc": "Création de bibliothèques de composants cohérentes." },
+      { "title": "Accessibilité", "desc": "Respect des normes WCAG et UX inclusive." },
+      { "title": "Performance Web", "desc": "Optimisation Core Web Vitals et SEO technique." }
+    ]
+  },
+  "Skills": {
+    "groups": [
+      { "name": "Langages", "items": ["TypeScript", "JavaScript", "Python", "SQL"] },
+      { "name": "Frameworks", "items": ["React", "Next.js", "Node.js", "Express", "TanStack"] },
+      { "name": "Outils", "items": ["Git", "Docker", "Figma", "Vite", "Tailwind CSS"] },
+      { "name": "Bases de données", "items": ["PostgreSQL", "MongoDB", "Redis"] }
+    ]
+  },
+  "Projets": {
+    "items": [
+      { "name": "Plateforme E-Learning", "desc": "Application LMS avec parcours interactifs et certifications.", "tags": ["Next.js", "Postgres", "Stripe"] },
+      { "name": "Dashboard Analytics", "desc": "Tableau de bord temps-réel pour suivi de KPI métier.", "tags": ["React", "WebSocket", "D3"] },
+      { "name": "Marketplace Artisanale", "desc": "Place de marché pour artisans locaux, paiements intégrés.", "tags": ["TanStack", "Supabase"] },
+      { "name": "App Mobile Fitness", "desc": "Suivi d'entraînement et progression personnalisée.", "tags": ["React Native", "Node"] }
+    ]
+  },
+  "Etudes": {
+    "items": [
+      { "title": "Master Informatique — Génie Logiciel", "school": "Université Paris-Saclay", "period": "2017 — 2019" },
+      { "title": "Licence Informatique", "school": "Université de Lyon", "period": "2014 — 2017" },
+      { "title": "Baccalauréat Scientifique — Mention Bien", "school": "Lycée Henri IV", "period": "2014" }
+    ]
+  }
+}

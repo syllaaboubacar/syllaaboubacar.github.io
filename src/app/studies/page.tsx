@@ -6,7 +6,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return { title: t("aboutTitle"), description: t("aboutDesc") };
 }
 
-export default async function ContactsPage() {
+export default async function StudiesPage() {
   const t = await getTranslations("About");
   return (
     <section className="p-6">
