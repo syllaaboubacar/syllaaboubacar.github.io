@@ -17,6 +17,7 @@ import { useSidebar } from "@/components/ui/sidebar"
 import SwitchTheme from "../theme/switchTheme";
 import { Avaibility } from "./avaibility";
 import { DataText } from "@/data/contentText";
+import SwitchLanguage from "../language/switchLanguage";
 
 
 
@@ -49,7 +50,9 @@ export function SiteHeader() {
           </BreadcrumbList>
         </Breadcrumb>
         <HeaderContent className="w-full sm:ml-auto sm:w-auto hiden" />
+        
         <SwitchTheme/>
+        <SwitchLanguage/>
         <Avaibility/> 
         {/* ----------onClick={() => downloadCV()}------- a ajouter dans les props du button--- */}        
         <Button 
