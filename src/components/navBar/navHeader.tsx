@@ -17,9 +17,8 @@ import { useSidebar } from "@/components/ui/sidebar"
 import SwitchTheme from "../theme/switchTheme";
 import { Avaibility } from "./avaibility";
 import { DataText } from "@/data/contentText";
-import { LanguageSwitcher } from "../language/languageSwitcher";
-import { downloadCV } from "@/data/cvDataa";
-import { DownloadCVButton } from "../downloadCVButton/downloadCV";
+
+
 
 
 
@@ -49,13 +48,19 @@ export function SiteHeader() {
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
-        <HeaderContent className="w-full sm:ml-auto sm:w-auto" />
-        <LanguageSwitcher />
+        <HeaderContent className="w-full sm:ml-auto sm:w-auto hiden" />
         <SwitchTheme/>
-        <Avaibility/>        
-        
-        <DownloadCVButton />
-        
+        <Avaibility/> 
+        {/* ----------onClick={() => downloadCV()}------- a ajouter dans les props du button--- */}        
+        <Button 
+          type="button" 
+          
+          className="rounded-lg text-sm font-medium text-primary-foreground transition-transform hover:-translate-y-0.5"
+        >
+          <Download className="w-4 h-4" /> {DataText.navItems.downloadCv}
+
+        </Button>
+        {/* ---------- <DownloadCVButton />    ---------- */}    
       </div>
     </header>
   )

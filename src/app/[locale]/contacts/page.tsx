@@ -1,23 +1,17 @@
-import { Button } from "@/components/ui/button"; // optionnel pour les liens du menu
-import {DataText} from "@/data/contentText";
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("Meta");
+  return { title: t("aboutTitle"), description: t("aboutDesc") };
+}
 
-export default function Contact() {
+export default async function ContactsPage() {
+  const t = await getTranslations("About");
   return (
-        
-        <>
-          {/* ---------- CONTENU (sans bordure) ---------- */}
-
-          <h3 className="mb-4 text-xl font-semibold leading-none tracking-tight">
-            Coontact principal
-          </h3>
-          <p className="text-muted-foreground">
-            
-            Ici mes contacts…          
-
-          </p>
-
-        </>
-
+    <section className="p-6">
+      <h1>{t("title")}</h1>
+      <p>{t("body")}</p>
+    </section>
   );
 }
