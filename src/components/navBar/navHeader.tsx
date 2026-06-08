@@ -18,6 +18,7 @@ import SwitchTheme from "../theme/switchTheme";
 import { Avaibility } from "./avaibility";
 import { DataText } from "@/data/contentText";
 import SwitchLanguage from "../language/switchLanguage";
+import DownloadCVButton from "../downloadCv/DownloadCVButton";
 
 
 
@@ -54,16 +55,8 @@ export function SiteHeader() {
         <SwitchTheme/>
         <SwitchLanguage />
         <Avaibility/> 
-        {/* ----------onClick={() => downloadCV()}------- a ajouter dans les props du button--- */}        
-        <Button 
-          type="button" 
-          
-          className="rounded-lg text-sm font-medium text-primary-foreground transition-transform hover:-translate-y-0.5"
-        >
-          <Download className="w-4 h-4" /> {DataText.navItems.downloadCv}
-
-        </Button>
-        {/* ---------- <DownloadCVButton />    ---------- */}    
+        <DownloadCVButton/>
+           
       </div>
     </header>
   )

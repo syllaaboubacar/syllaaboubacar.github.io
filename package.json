@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "tsx scripts/generate-cv-pdfs.ts",
     "build": "next build",
     "postbuild": "find out -name '*.txt' -type f -delete",
     "start": "next start",
@@ -11,6 +12,7 @@
   },
   "dependencies": {
     "@dev.icons/react": "^1.1.0",
+    "@react-pdf/renderer": "^4.5.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "eslint-config-next": "^15.5.19",
@@ -32,6 +34,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "tailwindcss": "^4",
+    "tsx": "^4.22.4",
     "typescript": "^5"
   }
 }
