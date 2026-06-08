@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "find out -name '*.txt' -type f -delete",
     "start": "next start",
     "lint": "eslint"
   },
@@ -12,8 +13,9 @@
     "@dev.icons/react": "^1.1.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "eslint-config-next": "^15.5.19",
     "lucide-react": "^1.16.0",
-    "next": "16.2.6",
+    "next": "^15.5.19",
     "next-intl": "^4.13.0",
     "next-themes": "^0.4.6",
     "radix-ui": "^1.4.3",
@@ -29,7 +31,6 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.2.6",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

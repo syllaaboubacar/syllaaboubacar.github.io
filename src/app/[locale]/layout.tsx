@@ -1,50 +1,41 @@
+import "@/globals.css";
 import type { Metadata } from "next";
-import { NextIntlClientProvider } from "next-intl";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages, getTranslations } from "next-intl/server";
 
 //--------------------------------
-import Footer from "@/components/footer/footer";
-import Navbar from "@/components/navBar/navBar";
 import { SiteHeader } from "@/components/navBar/navHeader";
 import { AppSidebar } from "@/components/sideBar/appSideBar";
-import SideBar from "@/components/sideBar/sideBar";
 import ThemeProvider from "@/components/theme/themeProvider";
 import { SidebarInset, SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
-import "@/globals.css";
+
 import { ReactNode } from "react";
 import { routing } from "../i18n/routing";
 import { notFound } from "next/navigation";
 
+export const dynamic = "force-static";
+
 //--------------------------------
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("Meta");
-  return {
-    title: t("homeTitle"),
-    description: t("homeDesc"),
-  };
+interface Props {
+  children: ReactNode;
+  params: Promise<{ locale: string }>;
 }
 
 export function generateStaticParams() {
-  return [{ locale: 'en' }, { locale: 'fr' }];
+  return routing.locales.map((locale) => ({ locale }));
 }
 
-interface Props {
-  children: React.ReactNode;
-}
-
-export default async function RootLayout({ children }: Props) {
-  const locale = await getLocale();
-  console.log("Le locale chargé : ", locale)
-  const supportedLocale = routing.locales.includes(locale as any) 
-    ? locale 
-    : routing.defaultLocale;
+export default async function RootLayout({ children, params }: Props) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) notFound();
   
-  const messages = await getMessages({ locale: supportedLocale });
-  const t = await getTranslations("Nav");
-
+  const messages = (await import(`@/messages/${locale}.json`)).default; 
+  
+  
   return (
-      
+    <html lang={locale} suppressHydrationWarning> 
+      <body>
       	<ThemeProvider attribute="class" defaultTheme="system" enableSystem /*children={children}*/>
 		
           <NextIntlClientProvider locale={locale} messages={messages}>
@@ -72,6 +63,12 @@ export default async function RootLayout({ children }: Props) {
           </NextIntlClientProvider>
 		
 	      </ThemeProvider>
+      </body>
+    </html> 
 	
   );
 }
+function unstable_setRequestLocale(locale: any) {
+  throw new Error("Function not implemented.");
+}
+

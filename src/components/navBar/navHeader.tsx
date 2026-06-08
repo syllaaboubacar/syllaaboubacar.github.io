@@ -52,7 +52,7 @@ export function SiteHeader() {
         <HeaderContent className="w-full sm:ml-auto sm:w-auto hiden" />
         
         <SwitchTheme/>
-        <SwitchLanguage/>
+        <SwitchLanguage />
         <Avaibility/> 
         {/* ----------onClick={() => downloadCV()}------- a ajouter dans les props du button--- */}        
         <Button 
