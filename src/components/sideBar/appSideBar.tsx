@@ -36,8 +36,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                   <GraduationCap className="size-4" />
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight">
-                  <span className="truncate font-medium">Aboubacar SYLLA</span>
-                  <span className="truncate text-xs">Portfolio</span>
+                  <span className="font-bold text-lg text-blue-500">Aboubacar SYLLA</span>
+                  {/*<span className="truncate text-xs">Portfolio</span>*/}
                 </div>
               </a>
             </SidebarMenuButton>
@@ -49,9 +49,11 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         {/* ----------<NavProjects projects={data.projects} />---------- */}
         {/* ----------<NavSecondary items={data.navSecondary} className="mt-auto" />---------- */} 
       </SidebarContent>
+      
       <SidebarFooter>
         <NavUser user={data.user} />
       </SidebarFooter>
+      
     </Sidebar>
   )
 }

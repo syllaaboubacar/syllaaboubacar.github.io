@@ -193,6 +193,89 @@ export const DataText = {
 
 export const data = {
   user: {
+    name: "Aboubacar Sylla",
+    email: "aboubacar.sylla54@gmail.com",
+    avatar: "/avatars/shadcn.jpeg",
+  },
+  navMain: [
+    {
+      title: "menu",
+      url: "#",
+      icon: SquareTerminal,
+      isActive: true,
+      items: [
+        {
+          title: "about",
+          url: "/",
+          icon: User,
+          isActive: true,
+        },
+        {
+          title: "experience",
+          url: "/experiences",
+          icon: Briefcase,
+        },
+        {
+          title: "competence",
+          url: "/competences",
+          icon: Sparkles,
+        },
+        {
+          title: "project",
+          url: "/projects",
+          icon: FolderGit2,
+        },
+        {
+          title: "skill",
+          url: "/skills",
+          icon: Code2,
+        },
+        {
+          title: "school",
+          url: "/studies",
+          icon: GraduationCap,
+        },
+        {
+          title: "contact",
+          url: "/contacts",
+          icon: Mail,
+        },
+      ],
+    },
+  ],
+  navSecondary: [
+    {
+      title: "support",
+      url: "/competences",
+      icon: LifeBuoy,
+    },
+    {
+      title: "feedback",
+      url: "/competences",
+      icon: Send,
+    },
+  ],
+  projects: [
+    {
+      name: "designEngineering",
+      url: "/competences",
+      icon: Frame,
+    },
+    {
+      name: "salesMarketing",
+      url: "/competences",
+      icon: PieChart,
+    },
+    {
+      name: "travel",
+      url: "/competences",
+      icon: Map,
+    },
+  ],
+}
+
+export const dataduplicate = {
+  user: {
     name: "shadcn",
     email: "m@example.com",
     avatar: "/avatars/shadcn.jpg",

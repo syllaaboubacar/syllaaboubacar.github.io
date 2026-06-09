@@ -58,9 +58,10 @@ export function NavUser({
                 <span className="truncate font-medium">{user.name}</span>
                 <span className="truncate text-xs">{user.email}</span>
               </div>
-              <ChevronsUpDown className="ml-auto size-4" />
+              {/*<ChevronsUpDown className="ml-auto size-4" />*/}
             </SidebarMenuButton>
           </DropdownMenuTrigger>
+          {/*
           <DropdownMenuContent
             className="w-(--radix-dropdown-menu-trigger-width) min-w-56 rounded-lg"
             side={isMobile ? "bottom" : "right"}
@@ -107,6 +108,7 @@ export function NavUser({
               Log out
             </DropdownMenuItem>
           </DropdownMenuContent>
+          */}
         </DropdownMenu>
       </SidebarMenuItem>
     </SidebarMenu>

@@ -12,6 +12,7 @@ import { SidebarInset, SidebarProvider, SidebarTrigger } from "@/components/ui/s
 import { ReactNode } from "react";
 import { routing } from "../i18n/routing";
 import { notFound } from "next/navigation";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 export const dynamic = "force-static";
 
@@ -40,25 +41,25 @@ export default async function RootLayout({ children, params }: Props) {
 		
           <NextIntlClientProvider locale={locale} messages={messages}>
                               
-                        
-            <div className="[--header-height:calc(--spacing(14))]">
-              <SidebarProvider className="flex flex-col">
-                <SiteHeader />
-                <div className="flex flex-1">
-                  <AppSidebar />
-                  <SidebarInset>
-                    
-                    <main className="flex flex-1 flex-col gap-4 p-4">
+             <TooltipProvider>           
+              <div className="[--header-height:calc(--spacing(14))]">
+                <SidebarProvider className="flex flex-col">
+                  <SiteHeader />
+                  <div className="flex flex-1">
+                    <AppSidebar className="border"/>
+                    <SidebarInset>
                       
-                      {children}
+                      <main className="flex flex-1 flex-col gap-4 p-4">
+                        
+                        {children}
 
-                    </main>
-                  </SidebarInset>
-                
-                </div>
-              </SidebarProvider>
-            </div>
-                  	  
+                      </main>
+                    </SidebarInset>
+                  
+                  </div>
+                </SidebarProvider>
+              </div>
+            </TooltipProvider>      	  
             
           </NextIntlClientProvider>
 		
@@ -68,7 +69,5 @@ export default async function RootLayout({ children, params }: Props) {
 	
   );
 }
-function unstable_setRequestLocale(locale: any) {
-  throw new Error("Function not implemented.");
-}
+
 
