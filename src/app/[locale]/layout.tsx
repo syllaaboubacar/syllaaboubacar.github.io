@@ -13,6 +13,7 @@ import { ReactNode } from "react";
 import { routing } from "../i18n/routing";
 import { notFound } from "next/navigation";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import MyFooter from "@/components/footer/footer";
 
 export const dynamic = "force-static";
 
@@ -35,6 +36,7 @@ export default async function RootLayout({ children, params }: Props) {
   
   
   return (
+
     <html lang={locale} suppressHydrationWarning> 
       <body>
       	<ThemeProvider attribute="class" defaultTheme="system" enableSystem /*children={children}*/>
@@ -46,7 +48,9 @@ export default async function RootLayout({ children, params }: Props) {
                 <SidebarProvider className="flex flex-col">
                   <SiteHeader />
                   <div className="flex flex-1">
+                    
                     <AppSidebar className="border"/>
+                    
                     <SidebarInset>
                       
                       <main className="flex flex-1 flex-col gap-4 p-4">
@@ -54,11 +58,13 @@ export default async function RootLayout({ children, params }: Props) {
                         {children}
 
                       </main>
+                      <MyFooter/>
                     </SidebarInset>
                   
                   </div>
                 </SidebarProvider>
               </div>
+              
             </TooltipProvider>      	  
             
           </NextIntlClientProvider>

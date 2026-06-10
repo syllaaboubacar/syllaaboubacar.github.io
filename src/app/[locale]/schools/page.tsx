@@ -20,6 +20,7 @@ export default async function StudiesPage({ params }: { params: Promise<{ locale
     <section className="p-6">
       <h1>{t("title")}</h1>
       <p>{t("body")}</p>
+      
     </section>
   );
 }

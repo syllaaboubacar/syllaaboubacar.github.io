@@ -1,8 +1,9 @@
 {
   "appSidebar": {
-    "title": "NAVIGATION",
+    "title": "Navigation",
+    "tooltip": "Click the chevron to open the menu",
     "menu": {
-      "title": "MENU",
+      "title": "Menu",
       "about": "About",
       "experience": "Experiences",
       "competence": "Competences",
@@ -51,7 +52,7 @@
     "school": "Studies",
     "contact": "Contacts",
     "availability": "Available",
-    "downloadCv": "Download CV"
+    "downloadCv": "Download CV" 
   },
   "footer": {
     "aboutMe": "A full-stack developer passionate about building modern, high-performance, and accessible applications.",

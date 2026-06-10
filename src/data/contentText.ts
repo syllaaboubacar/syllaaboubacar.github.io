@@ -174,7 +174,7 @@ export const DataText = {
     },
 
     footer: {
-        me: "Aboubacar SYLLA",
+        me: "Aboubacar SYLLA", 
 
         aboutMe: "aboutMe",
 
@@ -191,11 +191,17 @@ export const DataText = {
 }
 
 
+
+
 export const data = {
   user: {
     name: "Aboubacar Sylla",
     email: "aboubacar.sylla54@gmail.com",
     avatar: "/avatars/shadcn.jpeg",
+  },
+  navbarItems: {
+    avaibility: "availability",
+    downloadCv: "downloadCv",        
   },
   navMain: [
     {
@@ -232,7 +238,7 @@ export const data = {
         },
         {
           title: "school",
-          url: "/studies",
+          url: "/schools",
           icon: GraduationCap,
         },
         {
@@ -273,6 +279,12 @@ export const data = {
     },
   ],
 }
+
+
+//-------------------------------------------------------
+
+
+
 
 export const dataduplicate = {
   user: {

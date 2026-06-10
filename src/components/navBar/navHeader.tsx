@@ -19,6 +19,8 @@ import { Avaibility } from "./avaibility";
 import { DataText } from "@/data/contentText";
 import SwitchLanguage from "../language/switchLanguage";
 import DownloadCVButton from "../downloadCv/DownloadCVButton";
+import { useTranslations } from "next-intl";
+import NavigationRoot from "../navigationPath/navigationRoot";
 
 
 
@@ -27,6 +29,18 @@ import DownloadCVButton from "../downloadCv/DownloadCVButton";
 export function SiteHeader() {
   const { toggleSidebar } = useSidebar()
   const b = 5;
+
+  const tFilAriane = useTranslations('navigationBar');
+
+  const translate = {
+      about: tFilAriane('about'),
+      experience: tFilAriane('experience'),
+      competence: tFilAriane('competence'),
+      project: tFilAriane('project'),
+      skill: tFilAriane('skill'),
+      school: tFilAriane('school'),
+      contact: tFilAriane('contact'),
+  }; 
 
   return (
     <header className="sticky top-0 z-50 flex w-full items-center border-b bg-background">
@@ -38,10 +52,13 @@ export function SiteHeader() {
             size="icon"
             onClick={toggleSidebar}
           >
-            <SidebarIcon />
+          <SidebarIcon />
           </Button>
           <Separator orientation="vertical" className="mr-2 h-4" />
-          <Breadcrumb className="hidden sm:block">
+
+          <NavigationRoot translations={translate} />
+
+          {/*<Breadcrumb className="hidden sm:block">
             <BreadcrumbList>
               <BreadcrumbItem>
                 <BreadcrumbLink href="#">Build Your Application</BreadcrumbLink>
@@ -51,7 +68,8 @@ export function SiteHeader() {
                 <BreadcrumbPage>Data Fetching</BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
-          </Breadcrumb>
+          </Breadcrumb>*/}
+
         </div>
 
         {/*<HeaderContent className="w-full sm:ml-auto sm:w-auto hiden" /> */}       

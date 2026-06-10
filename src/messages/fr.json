@@ -1,8 +1,9 @@
 {
   "appSidebar": {
-    "title": "NAVIGATION",
+    "title": "Navigation",
+    "tooltip": "Accéder au menu en cliquant le chevron",
     "menu": {
-      "title": "MENU",
+      "title": "Menu",
       "about": "A propos",
       "experience": "Expériences",
       "competence": "Compétences",
@@ -15,7 +16,7 @@
       "title": "Modèles",
       "genesis": "Genèse",
       "explorer": "Explore",
-      "quantum": "Quantité"
+      "quantum": "Quantité" 
     },
     "documentation": {
       "title": "Documentation",
