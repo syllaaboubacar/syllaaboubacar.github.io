@@ -44,7 +44,7 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 flex w-full items-center border-b bg-background">
-      <div className="flex h-(--header-height) w-full justify-between gap-2 px-4">
+      <div className="flex h-(--header-height) w-full justify-between gap-2 px-4 items-center">
         <div className="flex justify-start items-center h-10">
           <Button
             className="h-8 w-8"
@@ -54,7 +54,7 @@ export function SiteHeader() {
           >
           <SidebarIcon />
           </Button>
-          <Separator orientation="vertical" className="mr-2 h-4" />
+          <Separator orientation="vertical" className="mr-2 h-6" />
 
           <NavigationRoot translations={translate} />
 

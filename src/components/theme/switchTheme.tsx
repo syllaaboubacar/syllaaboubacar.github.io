@@ -22,7 +22,7 @@ export default function SwitchTheme(){
     return(
 
         <Button 
-            variant="ghost"
+            
             onClick={() => setTheme(theme==="dark" ? "light" : "dark")}
         >
             {isDark ? (

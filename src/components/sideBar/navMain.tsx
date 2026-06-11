@@ -92,8 +92,8 @@ export function NavMain({
                         <SidebarMenuSubItem key={subItem.title}>
                           <SidebarMenuSubButton asChild 
                             isActive={isLinkActive(subItem.url)}
-                            className={`border-2 hover:-translate-y-0.5 hover:bg-[#8bb5b1] shadow hover:shadow-lg transition-shadow ${
-                            isLinkActive(subItem.url) ? "font-bold border-l-8 border-t-4 border-primary bg-lime-200" : ""}`}
+                            className={`border-0 p-5 hover:-translate-y-0.5 hover:bg-[#8bb5b1] shadow hover:shadow-lg transition-shadow ${
+                            isLinkActive(subItem.url) ? "font-bold border-l-8 border-t-2 border-primary bg-lime-200" : ""}`}
                           >
                             <div key={subItem.title}>
                               <subItem.icon color="#569F98" />

@@ -18,9 +18,9 @@ export default function MyFooter(){
     return(
         <SidebarFooter className="justify-center items-center border-t-2">
             <footer className="w-full bg-background/95 backdrop-blur-sm mt-0">
-                <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-2"> {/* ← py-8 → py-4 */}
                 
-                    <div className="flex flex-wrap justify-between items-start gap-8">
+                    <div className="flex flex-wrap justify-between items-start gap-4">{/* ← gap-8 → gap-4 (optionnel) */}
                         <div className="flex-1 min-w-50">
                             <h3 className="text-lg font-bold bg-linear-to-r from-primary to-primary/60 bg-clip-text text-transparent mb-3">
                                 {DataText.footer.me}
@@ -67,7 +67,7 @@ export default function MyFooter(){
                         </div>
                     </div>
 
-                    <div className="mt-8 pt-6 border-t text-center text-sm text-muted-foreground flex flex-col sm:flex-row justify-between items-center gap-2">
+                    <div className="mt-2 pt-1 border-t text-center text-sm text-muted-foreground flex flex-col sm:flex-row justify-between items-center gap-2">  {/* ← mt-8 → mt-4, pt-6 → pt-3 */}
                         <p>{DataText.footer.copyright}{t(`${DataText.footer.copyrightLaw}`)}</p>
                         <p className="flex items-center gap-1">{t(`${DataText.footer.comment}`)}</p>
                     </div>

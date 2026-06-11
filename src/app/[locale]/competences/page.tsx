@@ -1,4 +1,6 @@
 import { routing } from "@/app/i18n/routing";
+import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Briefcase } from "lucide-react";
 import type { Metadata } from "next";
 import { useLocale } from "next-intl";
 import { getLocale, getTranslations, setRequestLocale } from "next-intl/server";
@@ -20,9 +22,25 @@ export default async function CompetencesPage({ params }: { params: Promise<{ lo
   //const locale = await getLocale();
   console.log("Locale : ",locale)
   return (
-    <section className="p-6">
-      <h1>{t("title")}</h1>
-      <p>{t("body")}</p>
-    </section>
+    <>
+      <Card>
+        <CardHeader className="flex-row items-start gap-3 t-4">
+          <div className="size-10 rounded-lg bg-primary/10 flex items-center justify-center">
+            <Briefcase className="size-5 text-primary" />
+          </div>
+          <div>
+            <CardTitle className="text-base">Compétences</CardTitle>
+            <CardDescription>Compétences professionnelles</CardDescription>
+          </div>
+        </CardHeader>
+        
+        <section className="p-6">
+          <h1>{t("title")}</h1>
+          <p>{t("body")}</p>
+        </section>
+
+      </Card>
+    
+    </>
   );
 }
