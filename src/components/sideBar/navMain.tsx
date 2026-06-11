@@ -90,18 +90,21 @@ export function NavMain({
                     <SidebarMenuSub className="gap-10 pt-5">
                       {item.items?.map((subItem) => (
                         <SidebarMenuSubItem key={subItem.title}>
-                          <SidebarMenuSubButton asChild 
-                            isActive={isLinkActive(subItem.url)}
-                            className={`border-0 p-5 hover:-translate-y-0.5 hover:bg-[#8bb5b1] shadow hover:shadow-lg transition-shadow ${
-                            isLinkActive(subItem.url) ? "font-bold border-l-8 border-t-2 border-primary bg-lime-200" : ""}`}
-                          >
-                            <div key={subItem.title}>
-                              <subItem.icon color="#569F98" />
-                              <Link href={subItem.url} className="w-full">                             
+                          <Link href={subItem.url} className="w-full">   
+                            <SidebarMenuSubButton asChild 
+                              isActive={isLinkActive(subItem.url)}
+                              className={`border-0 p-5 hover:-translate-y-0.5 hover:bg-[#8bb5b1] shadow hover:shadow-lg transition-shadow ${
+                              isLinkActive(subItem.url) ? "font-bold border-l-8 border-t-2 border-primary bg-lime-200" : ""}`}
+                            >
+                              <div key={subItem.title}>
+                                
+                                <subItem.icon color="#569F98" />
+                                                          
                                 <span>{t(`menu.${subItem.title}`).toUpperCase()}</span>
-                              </Link>
-                            </div>
-                          </SidebarMenuSubButton>
+                                
+                              </div>
+                            </SidebarMenuSubButton>
+                          </Link>
                         </SidebarMenuSubItem>
                       ))}
                     </SidebarMenuSub>
