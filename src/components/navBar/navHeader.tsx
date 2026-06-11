@@ -72,14 +72,25 @@ export function SiteHeader() {
 
         </div>
 
-        {/*<HeaderContent className="w-full sm:ml-auto sm:w-auto hiden" /> */}       
-
-        <div className="flex justify-end items-center h-10 gap-3">
+        {/*<HeaderContent className="w-full sm:ml-auto sm:w-auto hiden" /> */}   
+        
+        {/* Desktop */}  
+        <div className="hidden md:flex ml-auto justify-end items-center h-10 gap-3" >
           <SwitchTheme/>
           <SwitchLanguage />
           <Avaibility/> 
           <DownloadCVButton/>
         </div>
+
+
+        {/* Mobile */}    
+        <div className="flex justify-end items-center h-10 gap-3 md:hidden ml-auto md:ml-0" >
+          <SwitchTheme/>
+          <SwitchLanguage />
+          <DownloadCVButton/>
+        </div>
+
+        
         
            
       </div>
