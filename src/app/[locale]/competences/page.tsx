@@ -17,10 +17,9 @@ export function generateStaticParams() {
 export default async function CompetencesPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  console.log("Locale : ",locale)
   const t = await getTranslations("About");
   //const locale = await getLocale();
-  console.log("Locale : ",locale)
+  
   return (
     <>
       <Card>

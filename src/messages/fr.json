@@ -83,10 +83,31 @@
   },
   "Profile": {
     "name": "Aboubacar SYLLA",
-    "role": "Développeur Full-Stack · Spécialisé React & Node.js",
+    "role": "Ingénieur de données / Développeur Full-Stack",
+    "welcome": "Bienvenue sur mon portfolio",
+    "free":"Disponible immédiatement",
+    "busy":"En mission",
+    "contact":"Me contacter",
+    "contactDesc":"Disponible pour des opportunités freelance ou CDI.",
+    "bottomTitle": "Projets",
+    "email": "E-mail",
+    "phone": "Téléphone",
     "initials": "AS",
     "status": "Disponible pour missions",
-    "bio": "Je conçois des interfaces soignées et des applications web performantes. Passionné par le détail, l'accessibilité et l'expérience utilisateur."
+    "bio": "Je conçois des interfaces soignées et des applications web performantes. Passionné par le détail, l'accessibilité et l'expérience utilisateur.",
+    "title": "À propos de moi",
+    "description": "Ingénieur full-stack et données avec 8 ans d'expérience, alliant le développement web haute performance, l'ingénierie des pipelines cloud et l'expertise Oracle PL/SQL. J'aime orchestrer des architectures robustes où la fluidité des interfaces, la scalabilité des traitements et la fiabilité des données ne font qu'un.",
+    "availability": "Disponible pour des missions freelance",
+    "downloadCV": "Télécharger CV",
+    "contactMe": "Me contacter",
+    "projects": "Projets"
+  },
+  "Technologies": {
+    "title": "Technologies & Outils",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "db": "Base de données",
+    "tool": "Outils & DevOps"
   },
   "Sections": {
     "contact": "Contact",
@@ -104,7 +125,24 @@
     "location": "Localisation",
     "linkedin": "LinkedIn",
     "github": "GitHub",
-    "locationValue": "Liège, Belgique"
+    "locationValue": "Liège, Belgique",
+    "title": "Me contacter",
+    "subtitle": "N'hésitez pas à me contacter pour toute collaboration ou opportunité",
+    "form": {
+      "title":"Envoyez-moi un message",
+      "name": "Nom complet",
+      "email": "Adresse email",
+      "message": "Votre message",
+      "send": "Envoyer le message",
+      "sending": "Envoi en cours…",
+      "success": "✅ Votre message a été envoyé avec succès !",
+      "error": "❌ Une erreur est survenue. Veuillez réessayer."
+    },
+    "info": {
+      "email": "contact@aboubacar.dev",
+      "phone": "+33 6 12 34 56 78",
+      "address": "Paris, France"
+    }
   },
   "Experiences": {
     "current": "Aujourd'hui",
@@ -127,7 +165,9 @@
         "period": "2019 — 2021",
         "desc": "Intégration de sites vitrines, maintenance et optimisation des performances."
       }
-    ]
+    ],
+    "title": "Expériences professionnelles",
+    "subtitle": "Mon parcours et mes missions"
   },
   "Competences": {
     "items": [
@@ -135,7 +175,9 @@
       { "title": "Design System", "desc": "Création de bibliothèques de composants cohérentes." },
       { "title": "Accessibilité", "desc": "Respect des normes WCAG et UX inclusive." },
       { "title": "Performance Web", "desc": "Optimisation Core Web Vitals et SEO technique." }
-    ]
+    ],
+    "title": "Compétences transversales",
+    "subtitle": "Soft skills et méthodologies"
   },
   "Skills": {
     "groups": [
@@ -143,7 +185,9 @@
       { "name": "Frameworks", "items": ["React", "Next.js", "Node.js", "Express", "TanStack"] },
       { "name": "Outils", "items": ["Git", "Docker", "Figma", "Vite", "Tailwind CSS"] },
       { "name": "Bases de données", "items": ["PostgreSQL", "MongoDB", "Redis"] }
-    ]
+    ],
+    "title": "Compétences techniques",
+    "subtitle": "Technologies et outils maîtrisés"
   },
   "Projets": {
     "items": [
@@ -151,13 +195,29 @@
       { "name": "Dashboard Analytics", "desc": "Tableau de bord temps-réel pour suivi de KPI métier.", "tags": ["React", "WebSocket", "D3"] },
       { "name": "Marketplace Artisanale", "desc": "Place de marché pour artisans locaux, paiements intégrés.", "tags": ["TanStack", "Supabase"] },
       { "name": "App Mobile Fitness", "desc": "Suivi d'entraînement et progression personnalisée.", "tags": ["React Native", "Node"] }
-    ]
+    ],
+    "title": "Mes projets",
+    "subtitle": "Découvrez mes réalisations récentes",
+    "viewProject": "Voir le projet",
+    "backToList": "Retour à la liste",
+    "personal": "Projet personnel",
+    "team": "Projet en équipe",
+    "presentation": "Présentation",
+    "architecture": "Architecture logicielle",
+    "defis": "Défis techniques",
+    "resultats": "Résultats et impact",
+    "etatActuel": "État actuel du projet",
+    "technologies": "Technologies utilisées",
+    "type": "Type de projet",
+    "githubRepo": "Dépôt GitHub"
   },
   "Etudes": {
     "items": [
       { "title": "Master Informatique — Génie Logiciel", "school": "Université Paris-Saclay", "period": "2017 — 2019" },
       { "title": "Licence Informatique", "school": "Université de Lyon", "period": "2014 — 2017" },
       { "title": "Baccalauréat Scientifique — Mention Bien", "school": "Lycée Henri IV", "period": "2014" }
-    ]
+    ],
+    "title": "Parcours académique",
+    "subtitle": "Formations et diplômes"
   }
 }
