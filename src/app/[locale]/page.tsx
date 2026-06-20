@@ -22,16 +22,16 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   return (
       <>
       
-      <div className="container mx-auto max-w-6xl py-8">
+      <div className="container mx-auto max-w-6xl py-8 border border-white/5 shadow-[0_0_20px_rgba(0,0,0,0.15)] rounded-2xl p-1.5">
       {/* Bande horizontale colorée */}
       <div className="relative h-48 w-full rounded-2xl bg-linear-to-r from-primary/40 via-primary/20 to-transparent mb-8">
         <div className="absolute -bottom-16 left-8 flex gap-6 items-end">
           <div className="relative w-32 h-32 rounded-full border-4 border-background bg-background overflow-hidden shadow-xl">
-            <div className="relative w-32 h-32 rounded-full border-4 border-background bg-background overflow-hidden shadow-xl">
+            <div className="relative w-32 h-32 rounded-full border-4 border-background bg-background overflow-hidden shadow-xl items-center justify-center">
               <img src={profileData.avatarUrl} alt={profileData.name} className="object-cover w-full h-full" />
             </div>
           </div>
-          <div className="mb-2">
+          <div className="mb-2  pt-3">
             <h1 className="text-4xl font-bold">{profileData.name}</h1>
             <p className="text-xl text-muted-foreground">{t(`${profileData.title}`)}</p>
           </div>
@@ -72,7 +72,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           </p>
           <div className="space-y-2">
             <p><strong>{t('email')} :</strong> {profileData.social.email}</p>
-            <p><strong>{t('phone')} :</strong> +32 484 755 406</p>
+            <p><strong>{t('phone')} :</strong> +32 484 755 406 </p>
             <div className="flex gap-3 pt-2">
               <Link href={profileData.social.github} target="_blank" className="text-primary">GitHub</Link>
               <Link href={profileData.social.linkedin} target="_blank" className="text-primary">LinkedIn</Link>
