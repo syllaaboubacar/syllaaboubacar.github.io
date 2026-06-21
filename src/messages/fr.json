@@ -75,6 +75,11 @@
     "homeTitle": "Portfolio — Accueil",
     "homeDesc": "Portfolio de développeur React & Next.js.",
     "aboutTitle": "À propos — Portfolio",
+    "experienceTitle": "Expérience — Portfolio",
+    "schoolTitle": "Etudes — Portfolio",
+    "contactTitle": "Contacts — Portfolio",
+    "skillTitle": "Skill — Portfolio",
+    "competenceTitle": "Compétence — Portfolio",
     "aboutDesc": "Mon parcours, mes compétences et mes outils."
   },
   "Common": {
@@ -242,6 +247,20 @@
       { "title": "Baccalauréat Scientifique — Mention Bien", "school": "Lycée Henri IV", "period": "2014" }
     ],
     "title": "Parcours académique",
-    "subtitle": "Formations et diplômes"
+    "subtitle": "Formations et diplômes",
+    "study": {
+      "degreeRochelle": "Master en ingénierie des contenus numériques en entreprise (ICONE)",
+      "schoolRochelle": "Université de La Rochelle, France",
+      "yearRochelle": "2017-2018",
+      "descriptionRochelle": "Compétence dans les domaines des systèmes d'information, de la data et de la transformation numérique des entreprises.",
+      "degreeVnu": "Master en système intelligent et multimédia (SIM)",
+      "schoolVnu": "Université nationale de Vietnam (VNU), Viet Nam",
+      "yearVnu": "2016-2018",
+      "descriptionVnu": "Double compétence en intelligence artificielle et multimédia.",
+      "degreeGamal": "Licence en informatique",
+      "schoolGamal": "Université Gamal Abdel Nasser de Conakry (UGANC), Guinée",
+      "yearGamal": "2008-2011",
+      "descriptionGamal": "Compétences fondamentales en systèmes informatiques, conception et développement de logiciels, bases de données, réseaux et technologies web."
+    }
   }
 }

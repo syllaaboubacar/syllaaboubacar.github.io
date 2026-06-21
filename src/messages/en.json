@@ -75,6 +75,11 @@
     "homeTitle": "Portfolio — Home",
     "homeDesc": "Portfolio of a React & Next.js developer.",
     "aboutTitle": "About — Portfolio",
+    "experienceTitle": "Experience — Portfolio",
+    "schoolTitle": "Studies — Portfolio",
+    "contactTitle": "Contacts — Portfolio",
+    "skillTitle": "Skill — Portfolio",
+    "competenceTitle": "Competence — Portfolio",
     "aboutDesc": "My background, skills and toolset."
   },
   "Common": {
@@ -242,6 +247,20 @@
       { "title": "Scientific Baccalaureate — Honors", "school": "Lycée Henri IV", "period": "2014" }
     ],
     "title": "Academic Background",
-    "subtitle": "Education and degrees"
+    "subtitle": "Education and degrees",
+    "study": {
+      "degreeRochelle": "Master's Degree in Digital Content Engineering for Business (ICONE).",
+      "schoolRochelle": "University of La Rochelle, France",
+      "yearRochelle": "2017-2018",
+      "descriptionRochelle": "Expertise in the fields of information systems, data, and digital transformation of businesses.",
+      "degreeVnu": "Master's Degree in Intelligent Systems and Multimedia (SIM).",
+      "schoolVnu": "Vietnam National University (VNU), Vietnam.",
+      "yearVnu": "2016-2018",
+      "descriptionVnu": "Expertise in both artificial intelligence and multimedia.",
+      "degreeGamal": "Bachelor's Degree in Computer Science.",
+      "schoolGamal": "Gamal Abdel Nasser University of Conakry (UGANC), Guinea",
+      "yearGamal": "2008-2011",
+      "descriptionGamal": "Core competencies in computer systems, software design and development, databases, networks, and web technologies."
+    }
   } 
 }

@@ -8,6 +8,12 @@ import { profileData } from "@/components/db/data/profile";
 import { AvailabilityBadge } from "@/components/avaibility/avaibility";
 import DownloadCVButton from "@/components/downloadCv/DownloadCVButton";
 import { technologies } from "@/components/db/data/technologies";
+import { Metadata } from "next";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("Meta");
+  return { title: t("aboutTitle"), description: t("aboutDesc") };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

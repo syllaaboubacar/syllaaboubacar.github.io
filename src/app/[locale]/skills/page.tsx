@@ -6,7 +6,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Meta");
-  return { title: t("aboutTitle"), description: t("aboutDesc") };
+  return { title: t("skillTitle"), description: t("aboutDesc") };
 }
 
 export function generateStaticParams() {
