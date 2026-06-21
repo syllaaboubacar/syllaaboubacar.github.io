@@ -145,13 +145,13 @@
     }
   },
   "Experiences": {
-    "current": "Aujourd'hui",
+    "current": "Aujourd'hui", 
     "items": [
       {
-        "role": "Lead Développeur Front-End",
-        "company": "Acme Corp",
-        "period": "2023 — Aujourd'hui",
-        "desc": "Refonte de la plateforme SaaS, mise en place du design system, encadrement d'une équipe de 4 développeurs."
+        "role": "Développeur d'applications senior",
+        "company": "Blueone Management SA",
+        "period": "2022 — 2025",
+        "desc": "Développeur fullstack pour des solutions logicielles avancées et des services pour les compagnies aériennes et les exploitants des aéronefs"
       },
       {
         "role": "Développeur Full-Stack",
@@ -166,8 +166,32 @@
         "desc": "Intégration de sites vitrines, maintenance et optimisation des performances."
       }
     ],
-    "title": "Expériences professionnelles",
-    "subtitle": "Mon parcours et mes missions"
+    "title": "Expériences professionnelles et les missions",
+    "subtitleExp": "ans d'expérience professionnelle",
+    "subtitlePar": "Parcours professionnel",
+    "jobs": {
+      "boTitle": "Développeur d'applications senior",  
+      "boCompany": "Blueone Management SA",
+      "boLocation": "Aéroport de Liege, Belgique",
+      "boStartDate": "2022-07",
+      "boEndDate": "2025-06",
+      "boDescription": "Développeur fullstack pour des solutions logicielles avancées et des services pour les compagnies aériennes et les exploitants des aéronefs.",
+      "boTechnologies": ["PL/SQL", "SQL", "Oracle Forms", "Oracle report builder", "Php", "Javascript", "OCI(Cloud)","Boostrap","Web service (Saop, Rest)","Postman","Sql developer"],
+      "unaTitle": "Enseignant assistant et doctorant",  
+      "unaCompany": "Université de Namur, Faculté d'informatique",
+      "unaLocation": "Namur, Belgique",
+      "unaStartDate": "2018-07",
+      "unaEndDate": "2022-06",
+      "unaDescription": "Chargé des travaux pratiques en programmation Python, en Base de données, en ingénierie des bases de données et en évolution des systèmes d'informations (Bachélier et Master). Chercheur et doctorant en analyse dynamique et visualisation de la manipulation des programmes de base de données dans les systèmes hybrides.",
+      "unaTechnologies": ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySql","DbMaria","Postgre","SprintBoot"],
+      "uadTitle": "Administrateur BDD & Responsable scolarité",  
+      "uadCompany": "Université Ahmadou Dieng, Service scolarité",
+      "uadLocation": "Conakry, Guinée",
+      "uadStartDate": "2013-07",
+      "uadEndDate": "2016-10",
+      "uadDescription": "Gestion et maintenance de la base de données institutionnelle. Automatisation des inscriptions et coordination avec la DSI.",
+      "uadTechnologies":  ["Database", "SQL", "Db Admin"]
+    }
   },
   "Competences": {
     "items": [

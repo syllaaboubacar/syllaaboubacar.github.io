@@ -1,39 +1,29 @@
 export const experiences = [
   {
-    title: "Développeur Full-Stack Senior",
-    company: "TechCorp",
-    location: "Paris, France",
-    startDate: "2022-01",
-    endDate: "Présent",
-    description: "Développement d'applications React/Next.js, mise en place d'APIs Node.js, mentoring.",
-    technologies: ["React", "Next.js", "Node.js", "PostgreSQL"]
+    title: "boTitle",  
+    company: "boCompany",
+    location: "boLocation",
+    startDate: "2022-07",
+    endDate: "2025-06",
+    description: "boDescription",
+    technologies: ["PL/SQL", "SQL", "Oracle Forms", "Oracle report builder", "Php", "Javascript", "OCI(Cloud)","Boostrap","Web service (Saop, Rest)","Postman","Sql developer"]
   },
   {
-    title: "Développeur Full-Stack Senior",
-    company: "TechCorp",
-    location: "Paris, France",
-    startDate: "2022-01",
-    endDate: "Présent",
-    description: "Développement d'applications React/Next.js, mise en place d'APIs Node.js, mentoring.",
-    technologies: ["React", "Next.js", "Node.js", "PostgreSQL"]
+    title: "unaTitle",
+    company: "unaCompany",
+    location: "unaLocation",
+    startDate: "2018-07",
+    endDate: "2022-06",
+    description: "unaDescription",
+    technologies: ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySql","DbMaria","Postgre","SprintBoot"]
   },
   {
-    title: "Développeur Full-Stack Senior",
-    company: "TechCorp",
-    location: "Paris, France",
-    startDate: "2022-01",
-    endDate: "Présent",
-    description: "Développement d'applications React/Next.js, mise en place d'APIs Node.js, mentoring.",
-    technologies: ["React", "Next.js", "Node.js", "PostgreSQL"]
+    title: "uadTitle",
+    company: "uadCompany",
+    location: "uadLocation",
+    startDate: "2013-07",
+    endDate: "2016-10",
+    description: "uadDescription",
+    technologies: ["Database", "SQL", "Db Admin"] 
   },
-  {
-    title: "Développeur Full-Stack Senior",
-    company: "TechCorp",
-    location: "Paris, France",
-    startDate: "2022-01",
-    endDate: "Présent",
-    description: "Développement d'applications React/Next.js, mise en place d'APIs Node.js, mentoring.",
-    technologies: ["React", "Next.js", "Node.js", "PostgreSQL"]
-  },
-  // ...
 ];

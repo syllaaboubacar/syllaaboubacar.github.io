@@ -145,13 +145,13 @@
     }
   },
   "Experiences": {
-    "current": "Present",
+    "current": "Present", 
     "items": [
       {
-        "role": "Lead Front-End Developer",
-        "company": "Acme Corp",
-        "period": "2023 — Present",
-        "desc": "Redesigned the SaaS platform, implemented the design system, mentored a team of 4 developers."
+        "role": "Application Developer Senior",
+        "company": "Blueone Management SA",
+        "period": "2022 — 2025",
+        "desc": "Full-stack developer for advanced software solutions and services for airlines and aircraft operators."
       },
       {
         "role": "Full-Stack Developer",
@@ -166,8 +166,32 @@
         "desc": "Built showcase websites, maintenance and performance optimization."
       }
     ],
-    "title": "Professional Experience",
-    "subtitle": "My career and assignments"
+    "title": "Professional experience and assignments",
+    "subtitleExp": " years of professional experience",
+    "subtitlePar": "My Career History",
+    "jobs": {
+      "boTitle": "Senior Application Developer",  
+      "boCompany": "Blueone Management SA",
+      "boLocation": "Liege Airport, Belgium",
+      "boStartDate": "2022-01",
+      "boEndDate": "2025-06",
+      "boDescription": "Full-stack developer for advanced software solutions and services for airlines and aircraft operators.",
+      "boTechnologies": ["PL/SQL", "SQL", "Oracle Forms", "Oracle report builder", "Php", "Javascript", "OCI(Cloud)","Boostrap","Web service (Saop, Rest)","Postman","Sql developer"],
+      "unaTitle": "Teaching Assistant and Ph.D. Candidate",  
+      "unaCompany": "University of Namur, Department of Computer Science",
+      "unaLocation": "Namur, Belgium",
+      "unaStartDate": "2018-07",
+      "unaEndDate": "2022-06",
+      "unaDescription": "Instructor for hands-on courses in Python programming, databases, database engineering, and information systems evolution (Bachelor’s and Master’s programs). Researcher and Ph.D. candidate in the dynamic analysis and visualization of database program manipulation in hybrid systems.",
+      "unaTechnologies":  ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySql","DbMaria","Postgre","SprintBoot"],
+      "uadTitle": "Database Administrator & Head of Academic Administration",  
+      "uadCompany": "Ahmadou Dieng University, Registrar's Office",
+      "uadLocation": "Conakry, Guinea",
+      "uadStartDate": "2013-06",
+      "uadEndDate": "2016-10",
+      "uadDescription": "Management and maintenance of the institutional database. Automation of registrations and coordination with the IT department.",
+      "uadTechnologies":  ["Database", "SQL", "Db Admin"]
+    }
   },
   "Competences": {
     "items": [
