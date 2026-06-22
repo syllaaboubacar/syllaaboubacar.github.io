@@ -24,9 +24,9 @@ export default async function ContactsPage({ params }: { params: Promise<{ local
   return (
     <>
       
-      <div className="container mx-auto max-w-6xl py-8 px-4 border border-white/5 shadow-[0_0_20px_rgba(0,0,0,0.15)] rounded-2xl p-1.5">
+      <div className="container mx-auto max-w-7xl py-8 px-4 border border-white/5 shadow-[0_0_20px_rgba(0,0,0,0.15)] rounded-2xl p-1.5">
       {/* Bande colorée dégradée comme les autres pages */}
-      <div className="relative w-full rounded-2xl bg-linear-to-r from-primary/40 via-primary/20 to-transparent p-8 mb-12 text-center">
+      <div className="relative w-full rounded-2xl bg-linear-to-r from-blue-500/20 to-cyan-500/20 p-8 mb-12 text-center">
         <h1 className="text-4xl font-bold text-foreground">{t('title')}</h1>
         <p className="text-muted-foreground mt-2 text-lg">{t('subtitle')}</p>
         <div className="w-24 h-1 bg-primary/70 mx-auto mt-4 rounded-full" />
@@ -35,7 +35,7 @@ export default async function ContactsPage({ params }: { params: Promise<{ local
       <div className="grid md:grid-cols-2 gap-8">
         {/* Coordonnées - chaque élément dans une carte */}
         <div className="space-y-4">
-          <div className="rounded-xl border bg-card p-6 shadow-sm hover:shadow-md transition-shadow duration-200">
+          <div className="rounded-xl border bg-card p-6 shadow-sm hover:shadow-md transition-shadow duration-200 bg-linear-to-r from-blue-50/60 to-sky-50/40 dark:from-blue-950/30 dark:to-sky-900/20">
             <div className="flex items-start gap-4">
               <Mail className="h-6 w-6 text-primary shrink-0 mt-1" />
               <div>
@@ -47,7 +47,7 @@ export default async function ContactsPage({ params }: { params: Promise<{ local
             </div>
           </div>
 
-          <div className="rounded-xl border bg-card p-6 shadow-sm hover:shadow-md transition-shadow duration-200">
+          <div className="rounded-xl border bg-card p-6 shadow-sm hover:shadow-md transition-shadow duration-200 bg-linear-to-r from-blue-50/60 to-sky-50/40 dark:from-blue-950/30 dark:to-sky-900/20">
             <div className="flex items-start gap-4">
               <Phone className="h-6 w-6 text-primary shrink-0 mt-1" />
               <div>
@@ -57,7 +57,7 @@ export default async function ContactsPage({ params }: { params: Promise<{ local
             </div>
           </div>
 
-          <div className="rounded-xl border bg-card p-6 shadow-sm hover:shadow-md transition-shadow duration-200">
+          <div className="rounded-xl border bg-card p-6 shadow-sm hover:shadow-md transition-shadow duration-200 bg-linear-to-r from-blue-50/60 to-sky-50/40 dark:from-blue-950/30 dark:to-sky-900/20">
             <div className="flex items-start gap-4">
               <MapPin className="h-6 w-6 text-primary shrink-0 mt-1" />
               <div>
@@ -67,7 +67,7 @@ export default async function ContactsPage({ params }: { params: Promise<{ local
             </div>
           </div>
 
-          <div className="rounded-xl border bg-card p-6 shadow-sm hover:shadow-md transition-shadow duration-200">
+          <div className="rounded-xl border bg-card p-6 shadow-sm hover:shadow-md transition-shadow duration-200 bg-linear-to-r from-blue-50/60 to-sky-50/40 dark:from-blue-950/30 dark:to-sky-900/20">
             <div className="flex gap-4 pt-2 justify-center items-center">
               <Link target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="GitHub" href="https://github.com/syllaaboubacar">
                                 
@@ -90,7 +90,7 @@ export default async function ContactsPage({ params }: { params: Promise<{ local
         </div>
 
         {/* Formulaire dans une carte */}
-        <div className="rounded-xl border bg-card p-6 shadow-sm hover:shadow-md transition-shadow duration-200">
+        <div className="rounded-xl border bg-card p-6 shadow-sm hover:shadow-md transition-shadow duration-200 bg-linear-to-r from-blue-50/60 to-sky-50/40 dark:from-blue-950/30 dark:to-sky-900/20">
           <h2 className="text-xl font-semibold mb-4">{tr("title")}</h2>
           <ContactForm /> 
         </div>
@@ -98,6 +98,6 @@ export default async function ContactsPage({ params }: { params: Promise<{ local
     </div>
 
     
-    </>
+    </> 
   );
 }

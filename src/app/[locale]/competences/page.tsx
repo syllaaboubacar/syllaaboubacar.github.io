@@ -26,9 +26,9 @@ export default async function CompetencesPage({ params }: { params: Promise<{ lo
   
   return (
     <>
-      <div className="container mx-auto max-w-6xl py-8 px-4 border border-white/5 shadow-[0_0_20px_rgba(0,0,0,0.15)] rounded-2xl p-1.5">
+      <div className="container mx-auto max-w-7xl py-8 px-4 border border-white/5 shadow-[0_0_20px_rgba(0,0,0,0.15)] rounded-2xl p-1.5">
       {/* Bande colorée dégradée */}
-      <div className="relative w-full rounded-2xl bg-linear-to-r from-primary/40 via-primary/20 to-transparent p-8 mb-12 text-center">
+      <div className="relative w-full rounded-2xl bg-linear-to-r from-blue-500/20 to-cyan-500/20 p-8 mb-12 text-center">
         <h1 className="text-4xl font-bold text-foreground">{t("title")}</h1>
         <p className="text-muted-foreground mt-2 text-lg">
           {t("subtitle")}
@@ -41,7 +41,7 @@ export default async function CompetencesPage({ params }: { params: Promise<{ lo
         {competences.map((cat, idx) => (
           <div
             key={idx}
-            className="group relative rounded-xl border bg-card p-6 shadow-sm hover:shadow-md transition-shadow duration-200"
+            className="group relative rounded-xl border bg-linear-to-r from-blue-50/60 to-sky-50/40 dark:from-blue-950/30 dark:to-sky-900/20 p-6 shadow-sm hover:shadow-md transition-shadow duration-200"
           >
             {/* Ligne colorée sur le côté gauche */}
             <div className="absolute left-0 top-0 bottom-0 w-1 rounded-l-xl bg-primary/70 group-hover:bg-primary transition-colors" />

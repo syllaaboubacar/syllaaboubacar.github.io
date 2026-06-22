@@ -101,7 +101,7 @@
     "status": "Available for projects",
     "bio": "I craft polished interfaces and high-performance web applications. Passionate about detail, accessibility and user experience.",
     "title": "About Me",
-    "description": "Full-stack and Data Engineer with 8 years of experience, blending high-performance web development, cloud pipeline engineering, and Oracle PL/SQL expertise. I thrive on orchestrating robust architectures where smooth interfaces, scalable processing, and bulletproof data reliability are one and the same.",
+    "description": "Full-stack and Data Engineer with 10 years of experience, blending high-performance web development, cloud pipeline engineering, and Oracle PL/SQL expertise. I thrive on orchestrating robust architectures where smooth interfaces, scalable processing, and bulletproof data reliability are one and the same.",
     "availability": "Available for freelance projects",
     "downloadCV": "Download CV",
     "contactMe": "Contact Me",
@@ -252,7 +252,12 @@
       { "name": "Databases", "items": ["PostgreSQL", "MongoDB", "Redis"] }
     ],
     "title": "Technical Skills",
-    "subtitle": "Technologies and tools I master"
+    "subtitle": "Technologies and tools I master",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "db": "Database",
+    "tool": "Tools & DevOps",
+    "tech": "Technologies"
   },
   "Projets": {
     "items": [

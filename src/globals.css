@@ -116,3 +116,20 @@
     @apply font-sans;
   }
 }
+
+
+/* === AJOUT DE L'ANIMATION SHIMMER === */
+@layer utilities {
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  .animate-shimmer {
+    animation: shimmer 6s infinite linear;
+  }
+}

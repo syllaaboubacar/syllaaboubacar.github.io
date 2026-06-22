@@ -101,7 +101,7 @@
     "status": "Disponible pour missions",
     "bio": "Je conçois des interfaces soignées et des applications web performantes. Passionné par le détail, l'accessibilité et l'expérience utilisateur.",
     "title": "À propos de moi",
-    "description": "Ingénieur full-stack et données avec 8 ans d'expérience, alliant le développement web haute performance, l'ingénierie des pipelines cloud et l'expertise Oracle PL/SQL. J'aime orchestrer des architectures robustes où la fluidité des interfaces, la scalabilité des traitements et la fiabilité des données ne font qu'un.",
+    "description": "Ingénieur full-stack et données avec 10 ans d'expérience, alliant le développement web haute performance, l'ingénierie des pipelines cloud et l'expertise Oracle PL/SQL. J'aime orchestrer des architectures robustes où la fluidité des interfaces, la scalabilité des traitements et la fiabilité des données ne font qu'un.",
     "availability": "Disponible pour des missions freelance",
     "downloadCV": "Télécharger CV",
     "contactMe": "Me contacter",
@@ -252,7 +252,12 @@
       { "name": "Bases de données", "items": ["PostgreSQL", "MongoDB", "Redis"] }
     ],
     "title": "Compétences techniques",
-    "subtitle": "Technologies et outils maîtrisés"
+    "subtitle": "Technologies et outils maîtrisés",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "db": "Base de données",
+    "tool": "Outils & DevOps",
+    "tech": "Technologies"
   },
   "Projets": {
     "items": [
