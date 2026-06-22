@@ -1,12 +1,32 @@
 export const competences = [
   {
-    category: "Soft Skills",
-    icon: "🧠",
-    items: ["Leadership", "Communication", "Gestion de projet", "Travail d'équipe", "Adaptabilité"],
+    category: "backend",
+    icon: "⚙️",
+    items: ["java", "oraPlsql", "rest", "soap", "php"],
   },
   {
-    category: "Méthodologies",
-    icon: "📋",
-    items: ["Agile / Scrum", "CI / CD", "TDD", "Clean Code", "Pair Programming"],
+    category: "frontend",
+    icon: "🎨",
+    items: [ "forms", "react", "next", "typescript", "shadcn"],
   },
+  {
+    category: "data",
+    icon: "🗄️",
+    items: ["oracle", "postgre", "mysql", "mongo", "cassandra"],
+  },
+  {
+    category: "tool",
+    icon: "🛠️",
+    items: ["sql", "vs", "git", "docker", "postman"],
+  },
+  {
+    category: "soft",
+    icon: "🧠",
+    items: ["lead", "com", "curiosity", "team", "adapte"],
+  },
+  {
+    category: "method",
+    icon: "📋",
+    items: ["agile", "cicd", "tdd", "clean", "pair"],
+  }
 ];

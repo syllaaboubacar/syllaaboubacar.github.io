@@ -22,7 +22,7 @@ export default async function StudiesPage({ params }: { params: Promise<{ locale
   const tl = await getTranslations("Etudes.study");
   return (
     <>
-      <div className="container mx-auto max-w-6xl py-8 px-4">
+      <div className="container mx-auto max-w-6xl py-8 px-4 border border-white/5 shadow-[0_0_20px_rgba(0,0,0,0.15)] rounded-2xl p-1.5">
         {/* Bande colorée dégradée */}
         <div className="relative w-full rounded-2xl bg-linear-to-r from-primary/40 via-primary/20 to-transparent p-8 mb-12 text-center">
           <h1 className="text-4xl font-bold text-foreground">{t("title")}</h1>
