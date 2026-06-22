@@ -93,12 +93,13 @@ export function NavMain({
                           <Link href={subItem.url} className="w-full">   
                             <SidebarMenuSubButton asChild 
                               isActive={isLinkActive(subItem.url)}
-                              className={`border-0 p-5 hover:-translate-y-0.5 hover:bg-[#8bb5b1] shadow hover:shadow-lg transition-shadow ${
+                              className={`bg-linear-to-r from-blue-50/60 to-sky-50/40 dark:from-blue-950/30 dark:to-sky-900/20 
+                              border-0 p-5 hover:-translate-y-0.5 hover:bg-[#8bb5b1] shadow hover:shadow-lg transition-shadow ${
                               isLinkActive(subItem.url) ? "font-bold border-l-8 border-t-2 border-primary bg-lime-200" : ""}`}
                             >
                               <div key={subItem.title}>
                                 
-                                <subItem.icon color="#569F98" />
+                                <subItem.icon color="#05701B" className="text-primary-foreground" />
                                                           
                                 <span>{t(`menu.${subItem.title}`).toUpperCase()}</span>
                                 
