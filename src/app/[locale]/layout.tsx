@@ -34,12 +34,12 @@ export default async function RootLayout({ children, params }: Props) {
   
   const messages = (await import(`@/messages/${locale}.json`)).default; 
   
-  
   return (
 
     <html lang={locale} suppressHydrationWarning> 
+
       <body>
-      	<ThemeProvider attribute="class" defaultTheme="system" enableSystem /*children={children}*/>
+      	<ThemeProvider attribute="class" defaultTheme="system" enableSystem >
 		
           <NextIntlClientProvider locale={locale} messages={messages}>
                               

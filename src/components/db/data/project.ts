@@ -19,56 +19,59 @@ export interface Projectdata {
 
 export const projects: Projectdata[] = [
   {
-    slug: "portfolio",
-    title: "Portfolio Next.js",
-    description: "Un portfolio professionnel avec Next.js, Tailwind et i18n.",
+    slug: "Portfolio-project",
+    title: "titleFolio",
+    description: "descriptionFolio",
+    longDescription: "longDescriptionFolio",
     images: ["/images/projects/project1/ticketing-create-ticket.png", "/images/projects/project1/ticketing-customer.png","/images/projects/project1/ticketing-inbox.png","/images/projects/project1/ticketing-notifications.png"], // pour le slider
-    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Framer Motion"],
+    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "React","Next-themes"],
     link: "https://aboubacar.dev",
     github: "https://github.com/syllaaboubacar/portfolio",
-    year: 2024,
+    year: 2026,
     type: "personnel",
-    presentation: "Ce projet est un portfolio complet avec gestion multilingue...",
-    architecture: "L'application utilise l'App Router de Next.js 15, des composants serveur, ...",
-    defis: "Le principal défi était de gérer le contenu multilingue et le mode sombre/clair...",
-    resultats: "Le portfolio est déployé et sert de vitrine professionnelle.",
-    etatActuel: "Le projet est en maintenance évolutive."
+    presentation: "presentationFolio",
+    architecture: "architectureFolio",
+    defis: "defisFolio",
+    resultats: "resultatsFolio",
+    etatActuel: "etatActuelFolio"
   },
    {
-    slug: "ticketing",
-    title: "Portfolio Next.js",
-    description: "Un portfolio professionnel avec Next.js, Tailwind et i18n.",
-    images: ["/images/projects/project2/portfolio1.png", "/images/projects/project2/portfolio2.png"], // pour le slider
-    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Framer Motion"],
+    slug: "Ticketing-project",
+    title: "titleTicket",
+    description: "descriptionTicket",
+    longDescription:"longDescriptionTicket",
+    images: ["/images/projects/project2/portfolio2.png","/images/projects/project2/ticketing-create-ticket.png","/images/projects/project2/ticketing-customer.png","/images/projects/project2/ticketing-inbox.png","/images/projects/project2/ticketing-notifications.png","/images/projects/project2/ticketing-presentation.png","/images/projects/project2/ticketing-team.png"], // pour le slider
+    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","Postgresql","Zod","React-hook-form", "Git"],
     link: "https://aboubacar.dev",
     github: "https://github.com/syllaaboubacar/portfolio",
-    year: 2024,
+    year: 2026,
     type: "equipe",
-    participants: ["Simplice","Cheick","Bourhane","Yalikha"],
-    presentation: "Ce projet est un portfolio complet avec gestion multilingue...",
-    architecture: "L'application utilise l'App Router de Next.js 15, des composants serveur, ...",
-    defis: "Le principal défi était de gérer le contenu multilingue et le mode sombre/clair...",
-    resultats: "Le portfolio est déployé et sert de vitrine professionnelle.",
-    etatActuel: "Le projet est en maintenance évolutive."
+    participants: ["Aboubacar Sylla","Simplice kolomou"],
+    presentation: "presentationTicket",
+    architecture: "architectureTicket",
+    defis: "defisTicket",
+    resultats: "resultatsTicket",
+    etatActuel: "etatActuelTicket"
   },
    {
-    slug: "genome",
-    title: "Portfolio Next.js",
-    description: "Un portfolio professionnel avec Next.js, Tailwind et i18n.",
-    images: ["/images/projects/project3/portfolio1.png", "/images/projects/project3/portfolio2.png"], // pour le slider
-    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Framer Motion"],
+    slug: "Genome-project",
+    title: "titleTpe",
+    description: "descriptionTpe",
+    longDescription: "longDescriptionTpe",
+    images: ["/images/projects/project3/areaF.png","/images/projects/project3/gigwa.png","chrom.png","/images/projects/project3/Jbrows.png","/images/projects/project3/lineF.png","/images/projects/project3/outils.png","/images/projects/project3/pieF.png","/images/projects/project3/sniplay.png"], // pour le slider
+    technologies: ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts"],
     link: "https://aboubacar.dev",
     github: "https://github.com/syllaaboubacar/portfolio",
-    year: 2024,
+    year: 2017,
     type: "personnel",
-    presentation: "Ce projet est un portfolio complet avec gestion multilingue...",
-    architecture: "L'application utilise l'App Router de Next.js 15, des composants serveur, ...",
-    defis: "Le principal défi était de gérer le contenu multilingue et le mode sombre/clair...",
-    resultats: "Le portfolio est déployé et sert de vitrine professionnelle.",
-    etatActuel: "Le projet est en maintenance évolutive."
+    presentation: "presentationTpe",
+    architecture: "architectureTpe",
+    defis: "defisTpe",
+    resultats: "resultatsTpe",
+    etatActuel: "etatActuelTpe"
   },
    {
-    slug: "task",
+    slug: "Task-project",
     title: "Portfolio Next.js",
     description: "Un portfolio professionnel avec Next.js, Tailwind et i18n.",
     images: ["/images/projects/project4/portfolio1.png", "/images/projects/project4/portfolio2.png"], // pour le slider

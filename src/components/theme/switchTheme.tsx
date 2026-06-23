@@ -8,7 +8,7 @@ export default function SwitchTheme(){
     const {theme,setTheme, resolvedTheme} = useTheme();
     const isDark = resolvedTheme === "dark";
     
-    const [mounted, setMounted] = useState(false);
+    {/*const [mounted, setMounted] = useState(false);
   
     useEffect(() => {
         setMounted(true);
@@ -17,7 +17,7 @@ export default function SwitchTheme(){
     // Éviter l'hydratation en ne rendant rien côté serveur
     if (!mounted) {
         return <Button variant="ghost" className="invisible w-10 h-10" />; // placeholder pour éviter le shift de layout
-    }
+    }*/}
 
     return(
 

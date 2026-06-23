@@ -1,4 +1,6 @@
 import { routing } from "@/app/i18n/routing";
+import { projects } from "@/components/db/data/project";
+import { ProjectCard } from "@/components/db/projectCard/projectCard";
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Briefcase } from "lucide-react";
 import type { Metadata } from "next";
@@ -31,18 +33,11 @@ export default async function ProjectsPage({ params }: { params: Promise<{ local
         </div>
 
         
-        //Remove
-        <Card>
-          <CardHeader className="flex-row items-start gap-3 t-4">
-            <div className="size-10 rounded-lg bg-primary/10 flex items-center justify-center">
-              <Briefcase className="size-5 text-primary" />
-            </div>
-            <div>
-              <CardTitle className="text-base">Projets</CardTitle>
-              <CardDescription>Projets académiques et professionnels</CardDescription>
-            </div>
-          </CardHeader>
-        </Card>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6">
+          {projects.map((project) => (
+            <ProjectCard key={project.slug} project={project}/>
+          ))}
+        </div>
 
 
 
