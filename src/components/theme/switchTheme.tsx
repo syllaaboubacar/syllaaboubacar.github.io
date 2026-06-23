@@ -4,22 +4,36 @@ import { Button } from "../ui/button";
 import { Sun, Moon } from "lucide-react";
 import { useEffect, useState } from "react";
 
-// Doit correspondre à la valeur de defaultTheme dans votre ThemeProvider
-const DEFAULT_THEME = "dark";
+const DEFAULT_THEME = "dark"; // doit correspondre à votre defaultTheme
 
 export default function SwitchTheme() {
   const { setTheme, resolvedTheme } = useTheme();
-  // État initial : correspond au thème par défaut
-  const [isDark, setIsDark] = useState(DEFAULT_THEME === "dark");
+  const [mounted, setMounted] = useState(false);
 
-  // Mise à jour de l'état lorsque le thème résolu change (client uniquement)
   useEffect(() => {
-    setIsDark(resolvedTheme === "dark");
-  }, [resolvedTheme]);
+    setMounted(true);
+  }, []);
+
+  // Rendu initial (serveur + premier client) : placeholder invisible
+  if (!mounted) {
+    return (
+      <Button variant="ghost" size="icon" className="w-10 h-10">
+        {DEFAULT_THEME === "dark" ? (
+          <Sun className="h-5 w-5 opacity-0" />
+        ) : (
+          <Moon className="h-5 w-5 opacity-0" />
+        )}
+      </Button>
+    );
+  }
+
+  const isDark = resolvedTheme === "dark";
 
   return (
     <Button
+      variant="ghost"
       size="icon"
+      className="w-10 h-10"
       onClick={() => setTheme(isDark ? "light" : "dark")}
     >
       {isDark ? (
