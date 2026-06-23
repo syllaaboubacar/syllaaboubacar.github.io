@@ -20,7 +20,6 @@ export default function SwitchTheme() {
   return (
     <Button
       size="icon"
-      className="w-10 h-10"
       onClick={() => setTheme(isDark ? "light" : "dark")}
     >
       {isDark ? (
