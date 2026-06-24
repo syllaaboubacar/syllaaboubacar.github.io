@@ -303,7 +303,15 @@
     "architectureTpe": "La solution proposée consiste à concevoir une application orientée web (HTML+JavaScript) entièrement exécutée sur le navigateur capable de :\nPrendre en paramètre un fichier de données genomique de type VCF se trouvant à local ou à distance.\nMettre en pratique le processus ETL (Extration, Traitement, Loading) avec les outils Python, Flask, Jquery, Javascript, 3D.js, HighCharts.",
     "defisTpe": "Le principal défi était de développer des graphes de visualisation telle que :\nensity by individuals (heatmap).\nMAF (histogramme).\nPCA (scatterplot).\nQ estimates (histogramme).\nRendre l'outil mieux adapté aux autres formats de données.\nPrevoir d'autres types de visualisation en 3D.",
     "resultatsTpe": "Bien que cette activité était dans le cadre des travaux personnels encadrés par des supperviseurs lorss du master 1, les reésultats étaient testés, approuvés et concluants",
-    "etatActuelTpe": "L'outil était mise à disposittion du  supperviseur ayant proposé le sujet pour son utilisation et d'éventuelles améliorations."
+    "etatActuelTpe": "L'outil était mise à disposittion du  supperviseur ayant proposé le sujet pour son utilisation et d'éventuelles améliorations.",
+    "titleSearch": "Analyse dynamique et visualisation des interactions entre bases de données et programmes dans les systèmes hybrides.",
+    "descriptionSearch": "Développement d'un outil d'analyse et de compréhension des comportements de la logique de manipulation des base de données dans un système d'information.\nEtude de l'évolution historique des systèmes logiciels à un temps t-1 et t donnés avec la capture des traces Sql et NoSql.",
+    "longDescriptionSearch": "Cette approche expose l'historique d'évolution du schéma de base de données, à travers l'étude de la durée de vie de tous les objets.\nElle permet également l'extraction des accès à une base de données à partir du code source.",
+    "presentationSearch": "Cette plateforme a pour but:\n- Analyser et comprendre comment la base de données et code source ont co-évalué au fil du temps.\nSoutenir l'adaptation du code source lors du changement de la base de données.",
+    "architectureSearch": "Une approche de migration, co-évolution et de coexistance de base de données relationnelles et de base de données NoSQL dans un même système.\nLa technique de ré-documentation conceptuelle de l'utilisation de la base de données dans le code source.\nLa structuration temporelle des données à l'aide des caractéristique extraites et classification dynamique de l'évolution des données dans les processus d'exécution des requêtes.",
+    "defisSearch": "Les défis étaient pour l'amélioration de la compréhension des systèmes logiciels à l'aide des techniques suivantes :\nLa technique d'analyse dynamique et de visualisation des programmes.\nLa technique d'exploration des processus d'intéraction.",
+    "resultatsSearch": "L'outil de capture des traces des intéractions des utilisateurs était implémenté et testé sur système local ayant deux paradigmes de données (Sql et NoSql).",
+    "etatActuelSearch": "Ce projet de recherche avait été suspendu faute de test de l'outil sur des vrais systèmes avec plusieurs paradigmes de données en quantité massive."
   },
   "Etudes": {
     "items": [

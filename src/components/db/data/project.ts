@@ -23,7 +23,7 @@ export const projects: Projectdata[] = [
     title: "titleFolio",
     description: "descriptionFolio",
     longDescription: "longDescriptionFolio",
-    images: ["/images/projects/project1/ticketing-create-ticket.png", "/images/projects/project1/ticketing-customer.png","/images/projects/project1/ticketing-inbox.png","/images/projects/project1/ticketing-notifications.png"], // pour le slider
+    images: ["/images/projects/project1/folio1.png", "/images/projects/project1/folio.png","/images/projects/project1/folio2.png","/images/projects/project1/folio3.png"], // pour le slider
     technologies: ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "React","Next-themes"],
     link: "https://aboubacar.dev",
     github: "https://github.com/syllaaboubacar/portfolio",
@@ -40,7 +40,7 @@ export const projects: Projectdata[] = [
     title: "titleTicket",
     description: "descriptionTicket",
     longDescription:"longDescriptionTicket",
-    images: ["/images/projects/project2/portfolio2.png","/images/projects/project2/ticketing-create-ticket.png","/images/projects/project2/ticketing-customer.png","/images/projects/project2/ticketing-inbox.png","/images/projects/project2/ticketing-notifications.png","/images/projects/project2/ticketing-presentation.png","/images/projects/project2/ticketing-team.png"], // pour le slider
+    images: ["/images/projects/project2/ticketing-presentation.png","/images/projects/project2/portfolio2.png","/images/projects/project2/ticketing-create-ticket.png","/images/projects/project2/ticketing-customer.png","/images/projects/project2/ticketing-inbox.png","/images/projects/project2/ticketing-notifications.png","/images/projects/project2/ticketing-team.png"], // pour le slider
     technologies: ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","Postgresql","Zod","React-hook-form", "Git"],
     link: "https://aboubacar.dev",
     github: "https://github.com/syllaaboubacar/portfolio",
@@ -59,7 +59,7 @@ export const projects: Projectdata[] = [
     description: "descriptionTpe",
     longDescription: "longDescriptionTpe",
     images: ["/images/projects/project3/areaF.png","/images/projects/project3/gigwa.png","chrom.png","/images/projects/project3/Jbrows.png","/images/projects/project3/lineF.png","/images/projects/project3/outils.png","/images/projects/project3/pieF.png","/images/projects/project3/sniplay.png"], // pour le slider
-    technologies: ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts"],
+    technologies: ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts", "Java","Sprint Boot"],
     link: "https://aboubacar.dev",
     github: "https://github.com/syllaaboubacar/portfolio",
     year: 2017,
@@ -71,20 +71,20 @@ export const projects: Projectdata[] = [
     etatActuel: "etatActuelTpe"
   },
    {
-    slug: "Task-project",
-    title: "Portfolio Next.js",
-    description: "Un portfolio professionnel avec Next.js, Tailwind et i18n.",
-    images: ["/images/projects/project4/portfolio1.png", "/images/projects/project4/portfolio2.png"], // pour le slider
-    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Framer Motion"],
+    slug: "Search.-project",
+    title: "titleSearch",
+    description: "descriptionSearch",
+    longDescription: "longDescriptionSearch",
+    images: ["/images/projects/project4/aproch.PNG","/images/projects/project4/ok.png", "/images/projects/project4/archi.png", "/images/projects/project4/ASST.PNG", "/images/projects/project4/AST.PNG", "/images/projects/project4/dahlia.PNG", "/images/projects/project4/ORMM.PNG", "/images/projects/project4/random.png", "/images/projects/project4/shema.PNG", "/images/projects/project4/tace.PNG"], // pour le slider
+    technologies: ["Java", "Python", "Sprint Boot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"],
     link: "https://aboubacar.dev",
     github: "https://github.com/syllaaboubacar/portfolio",
-    year: 2024,
-    type: "equipe",
-    participants: ["Ben","Ken","Miche","Benja"],
-    presentation: "Ce projet est un portfolio complet avec gestion multilingue...",
-    architecture: "L'application utilise l'App Router de Next.js 15, des composants serveur, ...",
-    defis: "Le principal défi était de gérer le contenu multilingue et le mode sombre/clair...",
-    resultats: "Le portfolio est déployé et sert de vitrine professionnelle.",
-    etatActuel: "Le projet est en maintenance évolutive."
+    year: 2021,
+    type: "personnel",
+    presentation: "presentationSearch",
+    architecture: "architectureSearch",
+    defis: "defisSearch",
+    resultats: "resultatsSearch",
+    etatActuel: "etatActuelSearch"
   },
 ];

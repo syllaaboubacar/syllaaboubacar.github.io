@@ -303,7 +303,15 @@
     "architectureTpe": "The proposed solution consists of designing a web-based application (HTML+JavaScript) entirely executed in the browser, capable of:\nTaking as input a VCF genomic data file located locally or remotely.\nImplementing the ETL process (Extract, Transform, Load) using Python, Flask, Jquery, Javascript, 3D.js, HighCharts.",
     "defisTpe": "The main challenge was to develop visualization graphs such as:\nDensity by individuals (heatmap).\nMAF (histogram).\nPCA (scatterplot).\nQ estimates (histogram).\nMake the tool better adapted to other data formats.\nPlan other types of 3D visualizations.",
     "resultatsTpe": "Although this activity was carried out as part of a supervised personal project during the first year of the Master's program, the results were tested, approved, and conclusive.",
-    "etatActuelTpe": "The tool was made available to the supervisor who proposed the topic, for its use and potential improvements."
+    "etatActuelTpe": "The tool was made available to the supervisor who proposed the topic, for its use and potential improvements.",
+    "titleSearch": "Dynamic analysis and visualization of interactions between databases and programs in hybrid systems.",
+    "descriptionSearch": "Development of an analysis and comprehension tool for database manipulation logic behaviors within an information system.\nStudy of the historical evolution of software systems at given times t-1 and t by capturing SQL and NoSQL traces.",
+    "longDescriptionSearch": "This approach exposes the evolution history of the database schema, by studying the lifetime of all objects.\nIt also enables the extraction of database accesses from the source code.",
+    "presentationSearch": "This platform aims to:\n- Analyze and understand how the database and source code have co-evolved over time.\n- Support the adaptation of source code when the database changes.",
+    "architectureSearch": "An approach for migration, co-evolution, and coexistence of relational databases and NoSQL databases within the same system.\nA technique for conceptual re-documentation of database usage in the source code.\nTemporal structuring of data using extracted features and dynamic classification of data evolution within query execution processes.",
+    "defisSearch": "The challenges aimed at improving the understanding of software systems using the following techniques:\nDynamic analysis and visualization of programs.\nExploration of interaction processes.",
+    "resultatsSearch": "The tool for capturing user interaction traces was implemented and tested on a local system with two data paradigms (SQL and NoSQL).",
+    "etatActuelSearch": "This research project was suspended due to a lack of testing the tool on real systems with multiple data paradigms and massive data volumes."
   },
   "Etudes": {
     "items": [
