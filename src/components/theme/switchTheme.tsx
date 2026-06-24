@@ -8,25 +8,40 @@ import { useEffect, useState } from "react";
 const DEFAULT_THEME = "dark";
 
 export default function SwitchTheme() {
-  const { setTheme, resolvedTheme } = useTheme();
+  const { setTheme, resolvedTheme } = useTheme();  
   // État initial : correspond au thème par défaut
+  const [mounted, setMounted] = useState(false);
   const [isDark, setIsDark] = useState(DEFAULT_THEME === "dark");
 
-  // Mise à jour de l'état lorsque le thème résolu change (client uniquement)
   useEffect(() => {
-    setIsDark(resolvedTheme === "dark");
+    setMounted(true);
+    // Une fois monté, on synchronise avec le thème réel
+    if (resolvedTheme) {
+      setIsDark(resolvedTheme === "dark");
+    }
   }, [resolvedTheme]);
+
+  // Rendu initial (serveur + premier client) : placeholder invisible
+  if (!mounted) {
+    return (
+      <Button  size="icon">
+        <div className="h-5 w-5" /> {/* placeholder invisible mais garde la taille */}
+      </Button>
+    );
+  }
 
   return (
     <Button
       size="icon"
       onClick={() => setTheme(isDark ? "light" : "dark")}
     >
-      {isDark ? (
-        <Sun className="h-5 w-5 transition-all" />
-      ) : (
-        <Moon className="h-5 w-5 transition-all" />
-      )}
+      <div className="transition-opacity duration-200 ease-in-out">
+        {isDark ? (
+          <Sun className="h-5 w-5 transition-all" />
+        ) : (
+          <Moon className="h-5 w-5 transition-all" />
+        )}
+      </div>
     </Button>
   );
 }

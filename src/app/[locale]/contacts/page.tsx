@@ -34,7 +34,7 @@ export default async function ContactsPage({ params }: { params: Promise<{ local
 
       <div className="grid md:grid-cols-2 gap-8">
         {/* Coordonnées - chaque élément dans une carte */}
-        <div className="space-y-4">
+        <div className="space-y-5">
           <div className="rounded-xl border bg-card p-6 shadow-sm hover:shadow-md transition-shadow duration-200 bg-linear-to-r from-blue-50/60 to-sky-50/40 dark:from-blue-950/30 dark:to-sky-900/20">
             <div className="flex items-start gap-4">
               <Mail className="h-6 w-6 text-primary shrink-0 mt-1" />
