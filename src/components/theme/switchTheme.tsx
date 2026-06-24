@@ -2,24 +2,35 @@
 import { useTheme } from "next-themes";
 import { Button } from "../ui/button";
 import { Sun, Moon } from "lucide-react";
+import { useEffect, useState } from "react";
+
+const DEFAULT_THEME = "dark"; // doit correspondre à votre defaultTheme
 
 export default function SwitchTheme() {
   const { setTheme, resolvedTheme } = useTheme();
-  const isDark = resolvedTheme === "dark";
+  // État local initialisé avec la valeur par défaut (pas de flash au montage)
+  const [isDark, setIsDark] = useState(DEFAULT_THEME === "dark");
+
+  // Synchronisation une fois que resolvedTheme est connu (client uniquement)
+  useEffect(() => {
+    if (resolvedTheme) {
+      setIsDark(resolvedTheme === "dark");
+    }
+  }, [resolvedTheme]);
 
   return (
     <Button
-      variant="ghost"
       size="icon"
-      className="w-10 h-10"
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      suppressHydrationWarning   // ← Ignore les différences d'hydratation
+      suppressHydrationWarning
     >
-      {isDark ? (
-        <Sun className="h-5 w-5 transition-all" suppressHydrationWarning />
-      ) : (
-        <Moon className="h-5 w-5 transition-all" suppressHydrationWarning />
-      )}
+      <div className="h-5 w-5 transition-opacity duration-150">
+        {isDark ? (
+          <Sun className="h-5 w-5" suppressHydrationWarning />
+        ) : (
+          <Moon className="h-5 w-5" suppressHydrationWarning />
+        )}
+      </div>
     </Button>
   );
 }
