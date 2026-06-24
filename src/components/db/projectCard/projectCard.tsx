@@ -65,9 +65,9 @@ export function ProjectCard({ project }: { project: Projectdata }) {
 
       {/* Contenu de la carte */}
       <div className="p-4 flex flex-col grow">
-        <h3 className="font-semibold text-xl mb-1">{project.title}</h3>
+        <h3 className="font-semibold text-xl mb-1">{t(`${project.title}`)}</h3>
         <p className="text-muted-foreground text-sm line-clamp-2 mb-3 grow">
-          {project.description}
+          {t(`${project.description}`)}
         </p>
 
         {/* Technologies */}
