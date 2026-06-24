@@ -4,14 +4,12 @@ import { Button } from "../ui/button";
 import { Sun, Moon } from "lucide-react";
 import { useEffect, useState } from "react";
 
-const DEFAULT_THEME = "dark"; // doit correspondre à votre defaultTheme
+const DEFAULT_THEME = "dark";
 
 export default function SwitchTheme() {
   const { setTheme, resolvedTheme } = useTheme();
-  // État local initialisé avec la valeur par défaut (pas de flash au montage)
   const [isDark, setIsDark] = useState(DEFAULT_THEME === "dark");
 
-  // Synchronisation une fois que resolvedTheme est connu (client uniquement)
   useEffect(() => {
     if (resolvedTheme) {
       setIsDark(resolvedTheme === "dark");
@@ -24,12 +22,21 @@ export default function SwitchTheme() {
       onClick={() => setTheme(isDark ? "light" : "dark")}
       suppressHydrationWarning
     >
-      <div className="h-5 w-5 transition-opacity duration-150">
-        {isDark ? (
-          <Sun className="h-5 w-5" suppressHydrationWarning />
-        ) : (
-          <Moon className="h-5 w-5" suppressHydrationWarning />
-        )}
+      <div className="relative h-5 w-5">
+        {/* Icône Sun (visible en mode dark) */}
+        <Sun
+          className={`absolute inset-0 h-5 w-5 transition-opacity duration-300 ${
+            isDark ? "opacity-100" : "opacity-0"
+          }`}
+          suppressHydrationWarning
+        />
+        {/* Icône Moon (visible en mode light) */}
+        <Moon
+          className={`absolute inset-0 h-5 w-5 transition-opacity duration-300 ${
+            isDark ? "opacity-0" : "opacity-100"
+          }`}
+          suppressHydrationWarning
+        />
       </div>
     </Button>
   );
