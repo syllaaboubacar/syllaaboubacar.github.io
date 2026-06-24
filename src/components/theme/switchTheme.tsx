@@ -4,17 +4,28 @@ import { Button } from "../ui/button";
 import { Sun, Moon } from "lucide-react";
 import { useEffect, useState } from "react";
 
-const DEFAULT_THEME = "dark";
-
 export default function SwitchTheme() {
   const { setTheme, resolvedTheme } = useTheme();
-  const [isDark, setIsDark] = useState(DEFAULT_THEME === "dark");
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    if (resolvedTheme) {
-      setIsDark(resolvedTheme === "dark");
-    }
-  }, [resolvedTheme]);
+    setMounted(true);
+  }, []);
+
+  // Avant montage : placeholder invisible (structure identique)
+  if (!mounted) {
+    return (
+      <Button size="icon">
+        <div className="relative h-5 w-5">
+          <div className="absolute inset-0 h-5 w-5 opacity-0">
+            <Sun className="h-5 w-5" />
+          </div>
+        </div>
+      </Button>
+    );
+  }
+
+  const isDark = resolvedTheme === "dark";
 
   return (
     <Button
@@ -23,16 +34,14 @@ export default function SwitchTheme() {
       suppressHydrationWarning
     >
       <div className="relative h-5 w-5">
-        {/* Icône Sun (visible en mode dark) */}
         <Sun
-          className={`absolute inset-0 h-5 w-5 transition-opacity duration-300 ${
+          className={`absolute inset-0 h-5 w-5 transition-opacity duration-150 ${
             isDark ? "opacity-100" : "opacity-0"
           }`}
           suppressHydrationWarning
         />
-        {/* Icône Moon (visible en mode light) */}
         <Moon
-          className={`absolute inset-0 h-5 w-5 transition-opacity duration-300 ${
+          className={`absolute inset-0 h-5 w-5 transition-opacity duration-150 ${
             isDark ? "opacity-0" : "opacity-100"
           }`}
           suppressHydrationWarning
