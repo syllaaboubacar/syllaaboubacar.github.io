@@ -36,11 +36,11 @@ export default function SwitchTheme() {
       onClick={() => setTheme(isDark ? "light" : "dark")}
     >
       <div className="transition-opacity duration-200 ease-in-out">
-        {isDark ? (
-          <Sun className="h-5 w-5 transition-all" />
-        ) : (
-          <Moon className="h-5 w-5 transition-all" />
-        )}
+      {isDark ? (
+        <Sun className="h-5 w-5 transition-all" />
+      ) : (
+        <Moon className="h-5 w-5 transition-all" />
+      )}
       </div>
     </Button>
   );
