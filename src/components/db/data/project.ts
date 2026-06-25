@@ -19,7 +19,7 @@ export interface Projectdata {
 
 export const projects: Projectdata[] = [
   {
-    slug: "Portfolio-project",
+    slug: "portfolio-project",
     title: "titleFolio",
     description: "descriptionFolio",
     longDescription: "longDescriptionFolio",
@@ -36,7 +36,7 @@ export const projects: Projectdata[] = [
     etatActuel: "etatActuelFolio"
   },
    {
-    slug: "Ticketing-project",
+    slug: "ticketing-project",
     title: "titleTicket",
     description: "descriptionTicket",
     longDescription:"longDescriptionTicket",
@@ -54,7 +54,7 @@ export const projects: Projectdata[] = [
     etatActuel: "etatActuelTicket"
   },
    {
-    slug: "Search.-project",
+    slug: "search-project",
     title: "titleSearch",
     description: "descriptionSearch",
     longDescription: "longDescriptionSearch",
@@ -71,7 +71,7 @@ export const projects: Projectdata[] = [
     etatActuel: "etatActuelSearch"
   },
    {
-    slug: "Genome-project",
+    slug: "genome-project",
     title: "titleTpe",
     description: "descriptionTpe",
     longDescription: "longDescriptionTpe",
