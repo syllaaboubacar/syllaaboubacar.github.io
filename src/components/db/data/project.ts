@@ -19,7 +19,7 @@ export interface Projectdata {
 
 export const projects: Projectdata[] = [
   {
-    slug: "portfolio-project",
+    slug: "portfolios",
     title: "titleFolio",
     description: "descriptionFolio",
     longDescription: "longDescriptionFolio",
@@ -36,7 +36,7 @@ export const projects: Projectdata[] = [
     etatActuel: "etatActuelFolio"
   },
    {
-    slug: "ticketing-project",
+    slug: "tickets",
     title: "titleTicket",
     description: "descriptionTicket",
     longDescription:"longDescriptionTicket",
@@ -54,7 +54,7 @@ export const projects: Projectdata[] = [
     etatActuel: "etatActuelTicket"
   },
    {
-    slug: "search-project",
+    slug: "searchs",
     title: "titleSearch",
     description: "descriptionSearch",
     longDescription: "longDescriptionSearch",
@@ -71,11 +71,11 @@ export const projects: Projectdata[] = [
     etatActuel: "etatActuelSearch"
   },
    {
-    slug: "genome-project",
+    slug: "genomes",
     title: "titleTpe",
     description: "descriptionTpe",
     longDescription: "longDescriptionTpe",
-    images: ["/images/projects/project3/areaF.png","/images/projects/project3/gigwa.png","chrom.png","/images/projects/project3/Jbrows.png","/images/projects/project3/lineF.png","/images/projects/project3/outils.png","/images/projects/project3/pieF.png","/images/projects/project3/sniplay.png"], // pour le slider
+    images: ["/images/projects/project3/areaF.png","/images/projects/project3/gigwa.png","/images/projects/project3/chrom.png","/images/projects/project3/Jbrows.png","/images/projects/project3/lineF.png","/images/projects/project3/outils.png","/images/projects/project3/pieF.png","/images/projects/project3/sniplay.png"], // pour le slider
     technologies: ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts", "Java","Sprint Boot"],
     link: "https://aboubacar.dev",
     github: "https://github.com/syllaaboubacar/D3_Data_visualization_live",

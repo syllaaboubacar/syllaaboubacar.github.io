@@ -37,7 +37,7 @@ export default async function ProjectDetailPage({ params }: Props) {
         <div className="relative w-full rounded-2xl bg-linear-to-r from-blue-500/20 to-cyan-500/20 p-8 mb-12 text-center">
           <h1 className="text-4xl font-bold text-foreground">{t("title")}</h1>
           <p className="text-muted-foreground mt-2 text-lg">
-            {t("subtitle")}
+           {t(`${project.title}`)}
           </p>
           <div className="w-24 h-1 bg-primary/70 mx-auto mt-4 rounded-full" />
         </div>
@@ -58,7 +58,7 @@ export default async function ProjectDetailPage({ params }: Props) {
       </div>
 
       {/* Diaporama avec bordure fine et ombre */}
-      <div className="aspect-video relative rounded-xl overflow-hidden bg-muted mb-8 border border-gray-200 shadow-lg">
+      <div className="relative w-full mb-8">
         <ProjectImageSlider images={project.images} title={project.title} />
       </div>
 

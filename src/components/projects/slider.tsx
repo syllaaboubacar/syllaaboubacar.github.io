@@ -56,7 +56,9 @@ export default function ProjectImageSlider({
   }
 
   return (
-    <div className="aspect-video relative rounded-xl overflow-hidden bg-muted mb-8">
+    <div
+      className="aspect-video relative rounded-xl overflow-hidden mb-8 px-[5px] bg-linear-to-r from-blue-50/60 to-sky-50/40 dark:from-blue-950/30 dark:to-sky-900/20"
+    >
       <div
         className="relative w-full h-full overflow-hidden"
         onMouseEnter={handleMouseEnter}
@@ -67,7 +69,7 @@ export default function ProjectImageSlider({
           className="flex h-full w-full"
           style={{
             transform: `translateX(-${currentIndex * 100}%)`,
-            transition: "transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)", // ← animation personnalisée
+            transition: "transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
           }}
         >
           {images.map((img, idx) => (
@@ -79,17 +81,17 @@ export default function ProjectImageSlider({
               <img
                 src={img}
                 alt={`${title} - ${idx + 1}`}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain" // ← centré et visible en entier
                 style={{
-                  transform: isHovered ? "scale(1.1)" : "scale(1)",
-                  transition: "transform 0.3s ease", // zoom fluide
+                  transform: isHovered ? "scale(1.05)" : "scale(1)",
+                  transition: "transform 0.3s ease",
                 }}
               />
             </div>
           ))}
         </div>
 
-        {/* Chevrons */}
+        {/* Chevrons (placés à l'intérieur du conteneur, donc après le padding) */}
         {images.length > 1 && (
           <>
             <button

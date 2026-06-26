@@ -86,6 +86,90 @@
     "downloadCV": "Download CV",
     "cvFileName": "Resume-Aboubacar-Sylla"
   },
+  "CvContent":{   
+    "Profile": {
+      "profilTitle":"Profil",
+      "name": "Aboubacar SYLLA",
+      "role": "Data Engineer / Full-Stack Developer",
+      "bio": "Full-stack and Data Engineer with 10 years of experience, blending high-performance web development, cloud pipeline engineering, and Oracle PL/SQL expertise. I thrive on orchestrating robust architectures where smooth interfaces, scalable processing, and bulletproof data reliability are one and the same.",
+      "portfolio": "https://syllaaboubacar.github.io",
+      "github": "https://github.com/syllaaboubacar",
+      "linkedin": "https://www.linkedin.com/in/sylla-aboubacar-ba033312b"
+    },
+    "ContactInfo": {
+      "email": "aboubacar.sylla54@gmail.com",
+      "phone": "+32 484 755 406",
+      "address": "Liège, Belgique"
+    },
+    "experience": {
+      "experienceTitle": "Professional Experience",
+      "jobs": {
+        "boTitle": "Senior Application Developer",  
+        "boCompany": "Blueone Management SA",
+        "boLocation": "Liege Airport, Belgium",
+        "boStartDate": "2022-06",
+        "boEndDate": "2025-06",
+        "boDescription": "Full-stack developer for advanced software solutions and services for airlines and aircraft operators.",
+        "boTechnologies": ["PL/SQL", "SQL", "Oracle Forms", "Oracle report builder", "Php", "Javascript", "OCI(Cloud)","Boostrap","Web service (Saop, Rest)","Postman","Sql developer"],
+        "unaTitle": "Teaching Assistant and Ph.D. Candidate",  
+        "unaCompany": "University of Namur, Department of Computer Science",
+        "unaLocation": "Namur, Belgium",
+        "unaStartDate": "2018-07",
+        "unaEndDate": "2022-06",
+        "unaDescription": "Instructor for hands-on courses in Python programming, databases, database engineering, and information systems evolution (Bachelor’s and Master’s programs). Researcher and Ph.D. candidate in the dynamic analysis and visualization of database program manipulation in hybrid systems.",
+        "unaTechnologies":  ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySql","DbMaria","Postgre","SprintBoot"],
+        "uadTitle": "Database Administrator & Head of Academic Administration",  
+        "uadCompany": "Ahmadou Dieng University, Registrar's Office",
+        "uadLocation": "Conakry, Guinea",
+        "uadStartDate": "2013-06",
+        "uadEndDate": "2016-10",
+        "uadDescription": "Management and maintenance of the institutional database. Automation of registrations and coordination with the IT department.",
+        "uadTechnologies":  ["Database", "SQL", "Db Admin"]
+      }
+    },    
+    "etude": {
+      "etudeTitle": "Education",
+      "items": [
+        { "title": "Master's Degree in Digital Content Engineering for Business (ICONE)", "school": "University of La Rochelle, France", "period": "2017-2018" },
+        { "title": "Master's Degree in Intelligent Systems and Multimedia (SIM)", "school": "Vietnam National University (VNU), Vietnam", "period": "2016-2018" },
+        { "title": "Bachelor's Degree in Computer Science", "school": "Gamal Abdel Nasser University of Conakry (UGANC), Guinea", "period": "2009-2011" },
+        {"title": "High School Diploma in Sciences — With Honors", "school": "Maferinyah High School", "period": "2008"}
+      ]
+    },
+    "competence": {      
+      "softSkillTitle": "Soft skills",
+      "methologieTitle": "Methodologies",
+      "lead": "Leadership",
+      "com": "Communication",
+      "curiosity": "Curiosity",
+      "team": "Teamwork",
+      "adapte": "Adaptability",
+      "agile": "Agile / Scrum",
+      "cicd": "CI / CD",
+      "tdd": "TDD",
+      "clean": "Clean Code",
+      "pair": "Pair Programming"
+    },
+    "Skills": {
+      "competenceTitle": "Technical Skills",
+      "groups": [
+        { "name": "Spoken language", "items": ["French (C1)", "English (B1)"] },
+        { "name": "Frontend", "items": ["Oracle Forms", "Oracle Report Builder", "React.js", "Next.js", "TypeScript", "Tailwind CSS", "Shadcn/ui"]},
+        { "name":"Backend", "items": ["Java Sprint Boot", "Oracle PL/SQL", "API REST", "API SOAP", "PHP", "Python"]},
+        { "name": "Tools", "items": ["SqlDeveloper","VS Code","IntelliJ","Maven","Git/GitHub","Docker","Postman", "Figma"] },
+        { "name": "Database", "items": ["Oracle", "PostgreSQL", "MySQL", "MongoDB", "Cassandra"] } 
+      ]
+    }, 
+    "Projets": {
+      "projectTitle": "Projects",
+      "items": [
+        { "name": "My Portfolio", "desc": "Personal portfolio website developed with Next.js, TypeScript and Tailwind CSS, Next-themes and Next-intl (i18n). Showcase of my projects, skills and experiences. Responsive design with subtle animations for a smooth user experience.\nThis platform is available on both Desktop and mobile versions.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "React","Next-themes"] },
+        { "name": "Ticket Management System", "desc": "Ticket management application for customer support. Backend Java Spring Boot with REST API, frontend React (Next.js) + TypeScript. Features: ticket creation/assignment, status tracking, email notifications.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","Postgresql","Zod","React-hook-form", "Git"] },
+        { "name": "Dynamic analysis and visualization of interactions between databases and programs in hybrid systems", "desc": "Development of an analysis and comprehension tool for database manipulation logic behaviors within an information system.\nStudy of the historical evolution of software systems at given times t-1 and t by capturing SQL and NoSQL traces.", "tags": ["Java", "Python", "Sprint Boot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"] },
+        { "name": "Development of visualization tools for genomic data analysis", "desc": "Developing a data extraction, cleaning, and transformation platform for visual analysis purposes, similar to tools like Sniplay.\nTechnologies used: Python, Flask, Jquery, Javascript, 3D.js, HighCharts.", "tags": ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts", "Java","Sprint Boot"] }
+      ]
+    }
+  },
   "Profile": {
     "name": "Aboubacar SYLLA",
     "role": "Data Engineer / Full-Stack Developer",
@@ -99,7 +183,7 @@
     "phone": "Phone",
     "initials": "AS",
     "status": "Available for projects",
-    "bio": "I craft polished interfaces and high-performance web applications. Passionate about detail, accessibility and user experience.",
+    "bio": "Full-stack and Data Engineer with 10 years of experience, blending high-performance web development, cloud pipeline engineering, and Oracle PL/SQL expertise. I thrive on orchestrating robust architectures where smooth interfaces, scalable processing, and bulletproof data reliability are one and the same.",
     "title": "About Me",
     "description": "Full-stack and Data Engineer with 10 years of experience, blending high-performance web development, cloud pipeline engineering, and Oracle PL/SQL expertise. I thrive on orchestrating robust architectures where smooth interfaces, scalable processing, and bulletproof data reliability are one and the same.",
     "availability": "Available for freelance projects",
@@ -144,9 +228,9 @@
       "error": "❌ An error occurred. Please try again."
     },
     "info": {
-      "email": "contact@aboubacar.dev",
-      "phone": "+33 6 12 34 56 78",
-      "address": "Paris, France"
+      "email": "aboubacar.sylla54@gmail.com",
+      "phone": "+32 484 755 406",
+      "address": "Liege, Belgium"
     }
   },
   "Experiences": {
@@ -178,7 +262,7 @@
       "boTitle": "Senior Application Developer",  
       "boCompany": "Blueone Management SA",
       "boLocation": "Liege Airport, Belgium",
-      "boStartDate": "2022-01",
+      "boStartDate": "2022-06",
       "boEndDate": "2025-06",
       "boDescription": "Full-stack developer for advanced software solutions and services for airlines and aircraft operators.",
       "boTechnologies": ["PL/SQL", "SQL", "Oracle Forms", "Oracle report builder", "Php", "Javascript", "OCI(Cloud)","Boostrap","Web service (Saop, Rest)","Postman","Sql developer"],
@@ -246,10 +330,11 @@
   },
   "Skills": {
     "groups": [
-      { "name": "Languages", "items": ["TypeScript", "JavaScript", "Python", "SQL"] },
-      { "name": "Frameworks", "items": ["React", "Next.js", "Node.js", "Express", "TanStack"] },
-      { "name": "Tools", "items": ["Git", "Docker", "Figma", "Vite", "Tailwind CSS"] },
-      { "name": "Databases", "items": ["PostgreSQL", "MongoDB", "Redis"] }
+      { "name": "Spoken language:", "items": ["French (C1)", "English (B1)"] },
+      { "name": "Frontend", "items": ["Oracle Forms", "Oracle Report Builder", "React.js", "Next.js", "TypeScript", "Tailwind CSS", "Shadcn/ui"]},
+      { "name":"Backend", "items": ["Java Sprint Boot", "Oracle PL/SQL", "API REST", "API SOAP", "PHP", "Python"]},
+      { "name": "Outils", "items": ["SqlDeveloper","VS Code","IntelliJ","Maven","Git/GitHub","Docker","Postman", "Figma"] },
+      { "name": "Bases de données", "items": ["Oracle", "PostgreSQL", "MyQL", "MongoDB", "Cassandra"] }
     ],
     "title": "Technical Skills",
     "subtitle": "Technologies and tools I master",
@@ -261,10 +346,10 @@
   },
   "Projets": {
     "items": [
-      { "name": "E-Learning Platform", "desc": "LMS app with interactive learning paths and certifications.", "tags": ["Next.js", "Postgres", "Stripe"] },
-      { "name": "Analytics Dashboard", "desc": "Real-time dashboard for tracking business KPIs.", "tags": ["React", "WebSocket", "D3"] },
-      { "name": "Artisan Marketplace", "desc": "Marketplace for local artisans with integrated payments.", "tags": ["TanStack", "Supabase"] },
-      { "name": "Fitness Mobile App", "desc": "Workout tracking and personalized progression.", "tags": ["React Native", "Node"] }
+      { "name": "My Portfolio", "desc": "Personal portfolio website developed with Next.js, TypeScript and Tailwind CSS, Next-themes and Next-intl (i18n). Showcase of my projects, skills and experiences. Responsive design with subtle animations for a smooth user experience.\nThis platform is available on both Desktop and mobile versions.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "React","Next-themes"] },
+      { "name": "Ticket Management System", "desc": "Ticket management application for customer support. Backend Java Spring Boot with REST API, frontend React (Next.js) + TypeScript. Features: ticket creation/assignment, status tracking, email notifications.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","Postgresql","Zod","React-hook-form", "Git"] },
+      { "name": "Dynamic analysis and visualization of interactions between databases and programs in hybrid systems", "desc": "Development of an analysis and comprehension tool for database manipulation logic behaviors within an information system.\nStudy of the historical evolution of software systems at given times t-1 and t by capturing SQL and NoSQL traces.", "tags": ["Java", "Python", "Sprint Boot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"] },
+      { "name": "Development of visualization tools for genomic data analysis", "desc": "Developing a data extraction, cleaning, and transformation platform for visual analysis purposes, similar to tools like Sniplay.\nTechnologies used: Python, Flask, Jquery, Javascript, 3D.js, HighCharts.", "tags": ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts", "Java","Sprint Boot"] }
     ],
     "title": "My Projects",
     "subtitle": "Discover my recent work",
@@ -304,7 +389,7 @@
     "defisTpe": "The main challenge was to develop visualization graphs such as:\nDensity by individuals (heatmap).\nMAF (histogram).\nPCA (scatterplot).\nQ estimates (histogram).\nMake the tool better adapted to other data formats.\nPlan other types of 3D visualizations.",
     "resultatsTpe": "Although this activity was carried out as part of a supervised personal project during the first year of the Master's program, the results were tested, approved, and conclusive.",
     "etatActuelTpe": "The tool was made available to the supervisor who proposed the topic, for its use and potential improvements.",
-    "titleSearch": "Dynamic analysis and visualization of interactions between databases and programs in hybrid systems.",
+    "titleSearch": "Dynamic analysis and visualization of interactions between databases and programs in hybrid systems",
     "descriptionSearch": "Development of an analysis and comprehension tool for database manipulation logic behaviors within an information system.\nStudy of the historical evolution of software systems at given times t-1 and t by capturing SQL and NoSQL traces.",
     "longDescriptionSearch": "This approach exposes the evolution history of the database schema, by studying the lifetime of all objects.\nIt also enables the extraction of database accesses from the source code.",
     "presentationSearch": "This platform aims to:\n- Analyze and understand how the database and source code have co-evolved over time.\n- Support the adaptation of source code when the database changes.",
@@ -315,9 +400,10 @@
   },
   "Etudes": {
     "items": [
-      { "title": "Master's in Computer Science — Software Engineering", "school": "Université Paris-Saclay", "period": "2017 — 2019" },
-      { "title": "Bachelor's in Computer Science", "school": "Université de Lyon", "period": "2014 — 2017" },
-      { "title": "Scientific Baccalaureate — Honors", "school": "Lycée Henri IV", "period": "2014" }
+      { "title": "Master's Degree in Digital Content Engineering for Business (ICONE)", "school": "University of La Rochelle, France", "period": "2017-2018" },
+      { "title": "Master's Degree in Intelligent Systems and Multimedia (SIM)", "school": "Vietnam National University (VNU), Vietnam", "period": "2016-2018" },
+      { "title": "Bachelor's Degree in Computer Science", "school": "Gamal Abdel Nasser University of Conakry (UGANC), Guinea", "period": "2009-2011" },
+      {"title": "High School Diploma in Sciences — With Honors", "school": "Maferinyah High School", "period": "2008"}
     ],
     "title": "Academic Background",
     "subtitle": "Education and degrees",
@@ -332,7 +418,7 @@
       "descriptionVnu": "Expertise in both artificial intelligence and multimedia.",
       "degreeGamal": "Bachelor's Degree in Computer Science.",
       "schoolGamal": "Gamal Abdel Nasser University of Conakry (UGANC), Guinea",
-      "yearGamal": "2008-2011",
+      "yearGamal": "2009-2011",
       "descriptionGamal": "Core competencies in computer systems, software design and development, databases, networks, and web technologies."
     }
   } 

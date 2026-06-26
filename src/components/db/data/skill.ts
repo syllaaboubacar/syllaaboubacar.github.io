@@ -35,7 +35,7 @@ export const skillsData: SkillCategory[] = [
       { name: "API REST", level: "Avancé" },
       { name: "API SOAP", level: "Avancé" },
       { name: "PHP", level: "Intermédiaire" },
-       { name: "Python", level: "Avancé" },
+      { name: "Python", level: "Avancé" },
     ],
   },
   {
@@ -45,7 +45,7 @@ export const skillsData: SkillCategory[] = [
     skills: [
       { name: "Oracle", level: "Avancé" },
       { name: "PostgreSQL", level: "Avancé" },
-      { name: "MyQL", level: "Avancé" },
+      { name: "MySQL", level: "Avancé" },
       { name: "MongoDB", level: "Intermédiaire" },
       { name: "Cassandra", level: "Intermédiaire" },
     ],
