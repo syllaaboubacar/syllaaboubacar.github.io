@@ -25,7 +25,7 @@ export const projects: Projectdata[] = [
     longDescription: "longDescriptionFolio",
     images: ["/images/projects/project1/folio1.png", "/images/projects/project1/folio.png","/images/projects/project1/folio2.png","/images/projects/project1/folio3.png"], // pour le slider
     technologies: ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "React","Next-themes"],
-    link: "https://aboubacar.dev",
+    link: "https://syllaaboubacar.github.io",
     github: "https://github.com/syllaaboubacar/syllaaboubacar.github.io",
     year: 2026,
     type: "personnel",
@@ -42,8 +42,8 @@ export const projects: Projectdata[] = [
     longDescription:"longDescriptionTicket",
     images: ["/images/projects/project2/ticketing-presentation.png","/images/projects/project2/portfolio2.png","/images/projects/project2/ticketing-create-ticket.png","/images/projects/project2/ticketing-customer.png","/images/projects/project2/ticketing-inbox.png","/images/projects/project2/ticketing-notifications.png","/images/projects/project2/ticketing-team.png"], // pour le slider
     technologies: ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","Postgresql","Zod","React-hook-form", "Git"],
-    link: "https://aboubacar.dev",
-    github: "https://github.com/syllaaboubacar/portfolio",
+    link: "https://syasko-tickecting.vercel.app",
+    github: "https://github.com/simplicekolomou/syasko-tickecting-front",
     year: 2026,
     type: "equipe",
     participants: ["Aboubacar Sylla","Simplice kolomou"],
@@ -60,7 +60,7 @@ export const projects: Projectdata[] = [
     longDescription: "longDescriptionSearch",
     images: ["/images/projects/project4/aproch.PNG","/images/projects/project4/ok.png", "/images/projects/project4/archi.png", "/images/projects/project4/ASST.PNG", "/images/projects/project4/AST.PNG", "/images/projects/project4/dahlia.PNG", "/images/projects/project4/ORMM.PNG", "/images/projects/project4/random.png", "/images/projects/project4/shema.PNG", "/images/projects/project4/tace.PNG"], // pour le slider
     technologies: ["Java", "Python", "Sprint Boot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"],
-    link: "https://aboubacar.dev",
+    link: "#",
     github: "https://github.com/syllaaboubacar/Hybrid_system_monitoring_and_queries_extraction",
     year: 2021,
     type: "personnel",
@@ -77,7 +77,7 @@ export const projects: Projectdata[] = [
     longDescription: "longDescriptionTpe",
     images: ["/images/projects/project3/areaF.png","/images/projects/project3/gigwa.png","/images/projects/project3/chrom.png","/images/projects/project3/Jbrows.png","/images/projects/project3/lineF.png","/images/projects/project3/outils.png","/images/projects/project3/pieF.png","/images/projects/project3/sniplay.png"], // pour le slider
     technologies: ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts", "Java","Sprint Boot"],
-    link: "https://aboubacar.dev",
+    link: "#",
     github: "https://github.com/syllaaboubacar/D3_Data_visualization_live",
     year: 2017,
     type: "personnel",

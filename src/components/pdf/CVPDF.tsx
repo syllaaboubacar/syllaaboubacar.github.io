@@ -1,171 +1,183 @@
 // src/components/pdf/CVPDF.tsx
 import React from 'react';
-import { Document, Page, Text, View, StyleSheet, Link } from '@react-pdf/renderer';
+import { Document, Page, Text, View, StyleSheet, Link, Image } from '@react-pdf/renderer';
 
 const styles = StyleSheet.create({
   page: {
-    padding: 30,
+    padding: 20,
     fontFamily: 'Helvetica',
     backgroundColor: '#ffffff',
     color: '#1a1a1a',
   },
   row: {
     flexDirection: 'row',
-    marginTop: 10,
+    marginTop: 6,
   },
   leftColumn: {
-    width: '30%',
-    paddingRight: 15,
+    width: '28%',
+    paddingRight: 8,
     backgroundColor: '#f7f9fc',
-    padding: 10,
-    borderRadius: 4,
+    padding: 8,
   },
   rightColumn: {
-    width: '70%',
-    paddingLeft: 15,
+    width: '72%',
+    paddingLeft: 8,
   },
   header: {
-    marginBottom: 12,
-    borderBottom: '2 solid #2c3e50',
-    paddingBottom: 8,
+    marginBottom: 6,
+    borderBottom: '1.5 solid #2c3e50',
+    paddingBottom: 4,
   },
   name: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: 'bold',
     color: '#2c3e50',
   },
   role: {
-    fontSize: 14,
+    fontSize: 11,
     fontWeight: 'semibold',
     color: '#34495e',
-    marginTop: 2,
+    marginTop: 1,
   },
   contactRow: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    marginTop: 4,
+    marginTop: 2,
   },
   contactItem: {
-    fontSize: 9,
+    fontSize: 8,
     color: '#2c3e50',
-    marginRight: 12,
+    marginRight: 8,
   },
-  // Ligne supplémentaire pour portfolio, github, linkedin
   linksRow: {
     flexDirection: 'row',
     flexWrap: 'wrap',
     marginTop: 2,
-    marginBottom: 4,
+    marginBottom: 1,
   },
   linkItem: {
-    fontSize: 9,
+    fontSize: 8,
     color: '#2980b9',
-    marginRight: 12,
+    marginRight: 8,
   },
   section: {
-    marginBottom: 10,
+    marginBottom: 5,
   },
   sectionTitle: {
-    fontSize: 12,
+    fontSize: 10.5,
     fontWeight: 'bold',
     color: '#2c3e50',
-    marginBottom: 4,
+    marginBottom: 2,
     borderBottom: '1 solid #bdc3c7',
-    paddingBottom: 2,
+    paddingBottom: 1,
   },
   profileText: {
-    fontSize: 10,
-    lineHeight: 1.6,
+    fontSize: 8.5,
+    lineHeight: 1.4,
     textAlign: 'justify',
   },
   item: {
-    marginBottom: 6,
+    marginBottom: 3,
   },
   itemTitle: {
-    fontSize: 11,
+    fontSize: 9.5,
     fontWeight: 'bold',
   },
   itemSubtitle: {
-    fontSize: 10,
+    fontSize: 8.5,
     fontWeight: 'semibold',
     color: '#2c3e50',
   },
   itemMeta: {
-    fontSize: 9,
+    fontSize: 8,
     color: '#7f8c8d',
-    marginBottom: 2,
+    marginBottom: 0.5,
   },
   description: {
-    fontSize: 9,
-    marginTop: 2,
-    lineHeight: 1.4,
+    fontSize: 8,
+    marginTop: 0.5,
+    lineHeight: 1.3,
   },
   techList: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    marginTop: 3,
+    marginTop: 1,
   },
   techItem: {
-    fontSize: 7,
+    fontSize: 6,
     backgroundColor: '#ecf0f1',
-    padding: '1 6',
-    marginRight: 4,
-    marginBottom: 2,
+    padding: '1 4',
+    marginRight: 3,
+    marginBottom: 1,
     borderRadius: 2,
     color: '#2c3e50',
   },
   skillGroup: {
-    marginBottom: 6,
+    marginBottom: 3,
   },
   skillGroupName: {
-    fontSize: 9,
+    fontSize: 8,
     fontWeight: 'bold',
     color: '#2c3e50',
-    marginBottom: 1,
+    marginBottom: 0.5,
   },
   skillItems: {
     flexDirection: 'row',
     flexWrap: 'wrap',
   },
   skillChip: {
-    fontSize: 8,
-    marginRight: 6,
-    marginBottom: 1,
+    fontSize: 7,
+    marginRight: 4,
+    marginBottom: 0.5,
   },
   projectItem: {
-    marginBottom: 8,
+    marginBottom: 4,
   },
   projectName: {
-    fontSize: 10,
+    fontSize: 9,
     fontWeight: 'bold',
   },
   projectTags: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    marginTop: 1,
+    marginTop: 0.5,
   },
   projectTag: {
-    fontSize: 7,
+    fontSize: 6,
     backgroundColor: '#ecf0f1',
-    padding: '1 4',
-    marginRight: 4,
+    padding: '1 3',
+    marginRight: 3,
     borderRadius: 2,
     color: '#2c3e50',
   },
   sidebarSection: {
-    marginBottom: 10,
+    marginBottom: 5,
   },
   sidebarTitle: {
-    fontSize: 10,
+    fontSize: 9,
     fontWeight: 'bold',
     color: '#2c3e50',
-    marginBottom: 3,
+    marginBottom: 2,
     borderBottom: '1 solid #bdc3c7',
     paddingBottom: 1,
   },
   sidebarItem: {
-    fontSize: 9,
-    marginBottom: 2,
+    fontSize: 8,
+    marginBottom: 0.5,
+  },
+  photo: {
+    width: 55,
+    height: 55,
+    borderRadius: 27.5,
+    marginBottom: 6,
+    alignSelf: 'center',
+  },
+  softRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+  },
+  softCol: {
+    width: '50%',
   },
 });
 
@@ -183,8 +195,7 @@ const formatPeriod = (start?: string, end?: string): string => {
   return s && e ? `${s} — ${e}` : s || e || '';
 };
 
-export const CVPDF = ({ messages }: { messages: any }) => {
-  // ---- Extraction depuis CvContent ----
+export const CVPDF = ({ messages, photoUrl }: { messages: any; photoUrl?: string }) => {
   const cv = messages.CvContent || {};
   const profile = cv.Profile || {};
   const contact = cv.ContactInfo || {};
@@ -194,7 +205,6 @@ export const CVPDF = ({ messages }: { messages: any }) => {
   const skillsData = cv.Skills || {};
   const projectsData = cv.Projets || {};
 
-  // Titres
   const titleProfil = profile.profilTitle || 'Profil';
   const titleExperience = expData.experienceTitle || 'Professional Experience';
   const titleEducation = eduData.etudeTitle || 'Education';
@@ -203,7 +213,6 @@ export const CVPDF = ({ messages }: { messages: any }) => {
   const softSkillTitle = compData.softSkillTitle || 'Soft skills';
   const methodTitle = compData.methologieTitle || 'Methodologies';
 
-  // Expériences
   const jobKeys = ['bo', 'una', 'uad'] as const;
   const jobList = jobKeys.map(key => ({
     title: expData.jobs?.[`${key}Title`] || '',
@@ -215,7 +224,7 @@ export const CVPDF = ({ messages }: { messages: any }) => {
     technologies: expData.jobs?.[`${key}Technologies`] || [],
   })).filter(job => job.title || job.company);
 
-  // Soft skills & méthodologies
+  // Fusion des soft skills et méthodologies dans une seule liste
   const softSkills = [
     compData.lead, compData.com, compData.curiosity,
     compData.team, compData.adapte,
@@ -224,8 +233,11 @@ export const CVPDF = ({ messages }: { messages: any }) => {
     compData.agile, compData.cicd, compData.tdd,
     compData.clean, compData.pair,
   ].filter(Boolean);
+  const softAndMethod = [
+    ...softSkills.map(s => ({ label: s })),
+    ...methodologies.map(m => ({ label: m }))
+  ];
 
-  // Éducation, projets, compétences techniques
   const educationItems = eduData.items || [];
   const projectItems = projectsData.items || [];
   const skillsGroups = skillsData.groups || [];
@@ -233,31 +245,14 @@ export const CVPDF = ({ messages }: { messages: any }) => {
   return (
     <Document>
       <Page size="A4" style={styles.page}>
-        {/* En-tête */}
         <View style={styles.header}>
           <Text style={styles.name}>{profile.name || 'Nom'}</Text>
           <Text style={styles.role}>{profile.role || 'Titre'}</Text>
-
-          {/* Ligne Portfolio / GitHub / LinkedIn */}
           <View style={styles.linksRow}>
-            {profile.portfolio && (
-              <Link src={profile.portfolio} style={styles.linkItem}>
-                • {profile.portfolio}
-              </Link>
-            )}
-            {profile.github && (
-              <Link src={profile.github} style={styles.linkItem}>
-                • {profile.github}
-              </Link>
-            )}
-            {profile.linkedin && (
-              <Link src={profile.linkedin} style={styles.linkItem}>
-                • {profile.linkedin}
-              </Link>
-            )}
+            {profile.portfolio && <Link src={profile.portfolio} style={styles.linkItem}>• Portfolio</Link>}
+            {profile.github && <Link src={profile.github} style={styles.linkItem}>• GitHub</Link>}
+            {profile.linkedin && <Link src={profile.linkedin} style={styles.linkItem}>• LinkedIn</Link>}
           </View>
-
-          {/* Coordonnées classiques */}
           <View style={styles.contactRow}>
             {contact.email && <Text style={styles.contactItem}>• {contact.email}</Text>}
             {contact.phone && <Text style={styles.contactItem}>• {contact.phone}</Text>}
@@ -265,20 +260,20 @@ export const CVPDF = ({ messages }: { messages: any }) => {
           </View>
         </View>
 
-        {/* Deux colonnes */}
         <View style={styles.row}>
           {/* Colonne gauche */}
           <View style={styles.leftColumn}>
-            {/* Compétences techniques */}
+            {photoUrl && <Image src={photoUrl} style={styles.photo} />} 
+
             {skillsGroups.length > 0 && (
               <View style={styles.sidebarSection}>
                 <Text style={styles.sidebarTitle}>{titleCompetence}</Text>
                 {skillsGroups.map((group: any, idx: number) => (
-                  <View key={idx} style={{ marginBottom: 4 }}>
-                    <Text style={[styles.skillGroupName, { fontSize: 8 }]}>{group.name}</Text>
+                  <View key={idx} style={styles.skillGroup}>
+                    <Text style={styles.skillGroupName}>{group.name}</Text>
                     <View style={styles.skillItems}>
                       {group.items.map((item: string, i: number) => (
-                        <Text key={i} style={[styles.skillChip, { fontSize: 7 }]}>• {item}</Text>
+                        <Text key={i} style={styles.skillChip}>• {item}</Text>
                       ))}
                     </View>
                   </View>
@@ -286,30 +281,22 @@ export const CVPDF = ({ messages }: { messages: any }) => {
               </View>
             )}
 
-            {/* Soft skills */}
-            {softSkills.length > 0 && (
+            {softAndMethod.length > 0 && (
               <View style={styles.sidebarSection}>
-                <Text style={styles.sidebarTitle}>{softSkillTitle}</Text>
-                {softSkills.map((skill, i) => (
-                  <Text key={i} style={styles.sidebarItem}>• {skill}</Text>
-                ))}
-              </View>
-            )}
-
-            {/* Méthodologies */}
-            {methodologies.length > 0 && (
-              <View style={styles.sidebarSection}>
-                <Text style={styles.sidebarTitle}>{methodTitle}</Text>
-                {methodologies.map((method, i) => (
-                  <Text key={i} style={styles.sidebarItem}>• {method}</Text>
-                ))}
+                <Text style={styles.sidebarTitle}>{softSkillTitle} & {methodTitle}</Text>
+                <View style={styles.softRow}>
+                  {softAndMethod.map((item, idx) => (
+                    <View key={idx} style={styles.softCol}>
+                      <Text style={styles.sidebarItem}>• {item.label}</Text>
+                    </View>
+                  ))}
+                </View>
               </View>
             )}
           </View>
 
           {/* Colonne droite */}
           <View style={styles.rightColumn}>
-            {/* Profil */}
             {profile.bio && (
               <View style={styles.section}>
                 <Text style={styles.sectionTitle}>{titleProfil}</Text>
@@ -317,7 +304,6 @@ export const CVPDF = ({ messages }: { messages: any }) => {
               </View>
             )}
 
-            {/* Expériences */}
             {jobList.length > 0 && (
               <View style={styles.section}>
                 <Text style={styles.sectionTitle}>{titleExperience}</Text>
@@ -341,7 +327,6 @@ export const CVPDF = ({ messages }: { messages: any }) => {
               </View>
             )}
 
-            {/* Éducation */}
             {educationItems.length > 0 && (
               <View style={styles.section}>
                 <Text style={styles.sectionTitle}>{titleEducation}</Text>
@@ -356,14 +341,15 @@ export const CVPDF = ({ messages }: { messages: any }) => {
               </View>
             )}
 
-            {/* Projets */}
             {projectItems.length > 0 && (
               <View style={styles.section}>
                 <Text style={styles.sectionTitle}>{titleProjects}</Text>
                 {projectItems.map((project: any, idx: number) => (
                   <View key={idx} style={styles.projectItem}>
                     <Text style={styles.projectName}>{project.name}</Text>
-                    <Text style={styles.description}>{project.desc}</Text>
+                    <Text style={styles.description}>
+                      {project.desc} <Link src={project.link} style={styles.linkItem}>• Demo</Link>
+                    </Text>                    
                     {project.tags && project.tags.length > 0 && (
                       <View style={styles.projectTags}>
                         {project.tags.map((tag: string, i: number) => (

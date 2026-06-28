@@ -135,15 +135,22 @@ export default async function ProjectDetailPage({ params }: Props) {
       </div>
 
       {/* Bouton GitHub centré */}
-      {project.github && (
-        <div className="flex justify-center mt-10">
+      <div className="flex justify-center mt-10">
+        {project.github && (        
           <Button asChild size="lg">
             <Link href={project.github} target="_blank">
               <Code2 className="mr-2 h-5 w-5" /> {t("githubRepo")}
             </Link>
-          </Button>
-        </div>
-      )}
-    </div>
+          </Button>        
+        )}
+        {project.link && (        
+          <Button asChild size="lg">
+            <Link href={project.link} target="_blank">
+              <Code2 className="mr-2 h-5 w-5" /> {t("demo")}
+            </Link>
+          </Button>        
+        )}
+      </div>
+    </div> 
   );
 }

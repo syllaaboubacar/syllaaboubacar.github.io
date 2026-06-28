@@ -91,7 +91,7 @@
       "profilTitle":"Profil",
       "name": "Aboubacar SYLLA",
       "role": "Data Engineer / Full-Stack Developer",
-      "bio": "Full-stack and Data Engineer with 10 years of experience, blending high-performance web development, cloud pipeline engineering, and Oracle PL/SQL expertise. I thrive on orchestrating robust architectures where smooth interfaces, scalable processing, and bulletproof data reliability are one and the same.",
+      "bio": "Full-stack & database engineer with 10 years of experience, bridging Oracle PL/SQL mastery with active tech watch (React, Typescript, Next.js, Java Spring Boot, cloud). Curious and inventive, I turn complex requirements into elegant solutions. My teaching experience enhances my ability to explain clearly and unite cross-functional teams.",
       "portfolio": "https://syllaaboubacar.github.io",
       "github": "https://github.com/syllaaboubacar",
       "linkedin": "https://www.linkedin.com/in/sylla-aboubacar-ba033312b"
@@ -109,21 +109,21 @@
         "boLocation": "Liege Airport, Belgium",
         "boStartDate": "2022-06",
         "boEndDate": "2025-06",
-        "boDescription": "Full-stack developer for advanced software solutions and services for airlines and aircraft operators.",
+        "boDescription": "Full-stacl and Oracle PL/SQL developer for airline software. Designs REST/SOAP APIs, manages OCI cloud infrastructure, develops mobile apps, and optimizes databases. Creates custom reports, oversees Linux/Windows systems, and handles proactive incident management and technical support.Implementation of ETL pipelines for data analysis using Power BI.",
         "boTechnologies": ["PL/SQL", "SQL", "Oracle Forms", "Oracle report builder", "Php", "Javascript", "OCI(Cloud)","Boostrap","Web service (Saop, Rest)","Postman","Sql developer"],
         "unaTitle": "Teaching Assistant and Ph.D. Candidate",  
         "unaCompany": "University of Namur, Department of Computer Science",
         "unaLocation": "Namur, Belgium",
         "unaStartDate": "2018-07",
         "unaEndDate": "2022-06",
-        "unaDescription": "Instructor for hands-on courses in Python programming, databases, database engineering, and information systems evolution (Bachelor’s and Master’s programs). Researcher and Ph.D. candidate in the dynamic analysis and visualization of database program manipulation in hybrid systems.",
+        "unaDescription": "Teaching assistant and researcher in computer science. Led practicals in Python, databases, and information system evolution. Researched dynamic analysis and visualization of SQL/NoSQL interactions. Served on the Faculty Council and represented the university at programming Olympiads.Database schema design and data modeling. Development of complex Oracle objects (procedures, packages, triggers, pipelines). Advanced functional analysis and SQL data manipulation.",
         "unaTechnologies":  ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySql","DbMaria","Postgre","SprintBoot"],
         "uadTitle": "Database Administrator & Head of Academic Administration",  
         "uadCompany": "Ahmadou Dieng University, Registrar's Office",
         "uadLocation": "Conakry, Guinea",
         "uadStartDate": "2013-06",
         "uadEndDate": "2016-10",
-        "uadDescription": "Management and maintenance of the institutional database. Automation of registrations and coordination with the IT department.",
+        "uadDescription": "Database administrator and head of academic registration. Managed institutional databases, automated student enrollment processes, and coordinated with the IT department. Ensured data integrity, performance, and reliability across academic systems.",
         "uadTechnologies":  ["Database", "SQL", "Db Admin"]
       }
     },    
@@ -163,10 +163,10 @@
     "Projets": {
       "projectTitle": "Projects",
       "items": [
-        { "name": "My Portfolio", "desc": "Personal portfolio website developed with Next.js, TypeScript and Tailwind CSS, Next-themes and Next-intl (i18n). Showcase of my projects, skills and experiences. Responsive design with subtle animations for a smooth user experience.\nThis platform is available on both Desktop and mobile versions.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "React","Next-themes"] },
-        { "name": "Ticket Management System", "desc": "Ticket management application for customer support. Backend Java Spring Boot with REST API, frontend React (Next.js) + TypeScript. Features: ticket creation/assignment, status tracking, email notifications.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","Postgresql","Zod","React-hook-form", "Git"] },
-        { "name": "Dynamic analysis and visualization of interactions between databases and programs in hybrid systems", "desc": "Development of an analysis and comprehension tool for database manipulation logic behaviors within an information system.\nStudy of the historical evolution of software systems at given times t-1 and t by capturing SQL and NoSQL traces.", "tags": ["Java", "Python", "Sprint Boot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"] },
-        { "name": "Development of visualization tools for genomic data analysis", "desc": "Developing a data extraction, cleaning, and transformation platform for visual analysis purposes, similar to tools like Sniplay.\nTechnologies used: Python, Flask, Jquery, Javascript, 3D.js, HighCharts.", "tags": ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts", "Java","Sprint Boot"] }
+        { "name": "My Portfolio", "desc": "Creation of a clean, multilingual and ergonomic online space aimed at showcasing my creative universe and professional achievements. The site offers intuitive navigation with a fully responsive design (mobile/desktop) and a customizable light/dark theme system for optimal reading comfort.", "link": "https://syllaaboubacar.github.io", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "React","Next-themes"] },
+        { "name": "Ticket Management System", "desc": "Design of a comprehensive ticket management application optimized for customer support. The platform enables rapid ticket creation and assignment, with granular tracking organized by categories (support, incidents, projects, and change requests).", "link": "https://syasko-tickecting.vercel.app", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","Postgresql","Zod","React-hook-form", "Git"] },
+        { "name": "Dynamic analysis and visualization of interactions between databases and programs in hybrid systems", "desc": "Development of an analysis and comprehension tool for database manipulation logic behaviors within an information system.Study of the historical evolution of software systems at given times t-1 and t by capturing SQL and NoSQL traces.", "link": "https://aboubacar.dev", "tags": ["Java", "Python", "Sprint Boot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"] },
+        { "name": "Development of visualization tools for genomic data analysis", "desc": "Developing a data extraction, cleaning, and transformation platform for visual analysis purposes, similar to tools like Sniplay.", "link": "https://aboubacar.dev", "tags": ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts", "Java","Sprint Boot"] }
       ]
     }
   },
@@ -346,8 +346,8 @@
   },
   "Projets": {
     "items": [
-      { "name": "My Portfolio", "desc": "Personal portfolio website developed with Next.js, TypeScript and Tailwind CSS, Next-themes and Next-intl (i18n). Showcase of my projects, skills and experiences. Responsive design with subtle animations for a smooth user experience.\nThis platform is available on both Desktop and mobile versions.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "React","Next-themes"] },
-      { "name": "Ticket Management System", "desc": "Ticket management application for customer support. Backend Java Spring Boot with REST API, frontend React (Next.js) + TypeScript. Features: ticket creation/assignment, status tracking, email notifications.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","Postgresql","Zod","React-hook-form", "Git"] },
+      { "name": "My Portfolio", "desc": "Personal portfolio website developed with Next.js, TypeScript and Tailwind CSS, Next-themes and Next-intl (i18n). Showcase of my projects, skills and experiences. Responsive design with subtle animations for a smooth user experience.\nThis platform is available on both Desktop and mobile versions.\nTo reach a diverse audience, I integrated a complete multilingual interface allowing visitors to switch languages instantly.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "React","Next-themes"] },
+      { "name": "Ticket Management System", "desc": "Ticket management application for customer support. Backend Java Spring Boot with REST API, frontend React (Next.js) + TypeScript. Features: ticket creation/assignment, status tracking, email notifications.\nFor proactive oversight, a monitoring module is connected to client infrastructures, while an email notification system ensures real-time communication on the progress of each ticket.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","Postgresql","Zod","React-hook-form", "Git"] },
       { "name": "Dynamic analysis and visualization of interactions between databases and programs in hybrid systems", "desc": "Development of an analysis and comprehension tool for database manipulation logic behaviors within an information system.\nStudy of the historical evolution of software systems at given times t-1 and t by capturing SQL and NoSQL traces.", "tags": ["Java", "Python", "Sprint Boot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"] },
       { "name": "Development of visualization tools for genomic data analysis", "desc": "Developing a data extraction, cleaning, and transformation platform for visual analysis purposes, similar to tools like Sniplay.\nTechnologies used: Python, Flask, Jquery, Javascript, 3D.js, HighCharts.", "tags": ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts", "Java","Sprint Boot"] }
     ],
@@ -365,8 +365,9 @@
     "technologies": "Technologies used",
     "type": "Project type",
     "githubRepo": "GitHub Repository",
+    "demo": "Go to Website",
     "titleFolio": "My Portfolio",
-    "descriptionFolio": "Personal portfolio website developed with Next.js, TypeScript and Tailwind CSS, Next-themes and Next-intl (i18n). Showcase of my projects, skills and experiences. Responsive design with subtle animations for a smooth user experience.\nThis platform is available on both Desktop and mobile versions.",
+    "descriptionFolio": "Personal portfolio website developed with Next.js, TypeScript and Tailwind CSS, Next-themes and Next-intl (i18n). Showcase of my projects, skills and experiences. Responsive design with subtle animations for a smooth user experience.\nThis platform is available on both Desktop and mobile versions.\nTo reach a diverse audience, I integrated a complete multilingual interface allowing visitors to switch languages instantly.",
     "longDescriptionFolio": "Personal web application developed to present my projects, skills and experiences in a professional and attractive way.",
     "presentationFolio": "This platform is multilingual with the ability to change themes (dark and light) and allows you to scan based on the language to automatically generate my CV.",
     "architectureFolio": "Development of a personal portfolio website using Next.js for the React framework, TypeScript for type safety, Shadcn for design and Tailwind CSS.\nA very simple architecture with a Next.js static export project without backend.\nClear structure separating data (projects, skills, experiences) from presentation components, facilitating maintenance and evolution of the site.\nResponsive design to ensure an optimal user experience on all devices, with subtle animations to improve interactivity.",
@@ -374,7 +375,7 @@
     "resultatsFolio": "Development of a functional and aesthetically pleasing portfolio website to present my projects and skills in a professional manner. Improvement of my frontend development skills with Next.js, TypeScript, Shadcn and Tailwind CSS. Enhancement of my Next.js project organization skills, by structuring data efficiently and creating reusable components for easier maintenance. Ability to deploy a static web application on GitHub Pages, by correctly configuring the Next.js project for static export and managing aspects related to deployment on GitHub Pages. Enriching experience in designing a complete web application, covering both frontend development and implementation of responsive design with animations for a better user experience.",
     "etatActuelFolio": "Project completed and deployed online. The site is accessible at https://syllaaboubacar.github.io/ and the source code is available on GitHub. I continue to keep the site updated with my new projects and experiences.",
     "titleTicket": "Ticket Management System",
-    "descriptionTicket": "Ticket management application for customer support. Backend Java Spring Boot with REST API, frontend React (Next.js) + TypeScript. Features: ticket creation/assignment, status tracking, email notifications.",
+    "descriptionTicket": "Ticket management application for customer support. Backend Java Spring Boot with REST API, frontend React (Next.js) + TypeScript. Features: ticket creation/assignment, status tracking, email notifications.\nFor proactive oversight, a monitoring module is connected to client infrastructures, while an email notification system ensures real-time communication on the progress of each ticket.",
     "longDescriptionTicket": "This platform allows daily reception of customer requests related to various issues and proposals regarding the applications they use, then having them processed by lead staff. This constitutes a communication channel between clients and service providers.",
     "presentationTicket": "Ticket management application developed in pairs, aiming to create an efficient system for customer support.\nBackend developed with Java Spring Boot exposing a REST API, and frontend developed in React (Next.js) with TypeScript.\nKey features: ticket creation and assignment, ticket status tracking, email notification system to inform users of updates on their tickets.",
     "architectureTicket": "Development of a REST API with Java Spring Boot to manage operations related to customer support tickets.\nDesign of a modular architecture with separation of responsibilities between the different layers of the application (controllers, services, repositories).\nUse of JPA/Hibernate for data persistence in a relational database, ensuring efficient management of tickets and users.\nImplementation of security with Spring Security to protect API endpoints and manage user roles and permissions.\nDevelopment of an intuitive user interface with React (Next.js) and TypeScript to allow users to create, track and manage their customer support tickets easily.\nUse of RTK Query to manage REST API calls and synchronize data between frontend and backend efficiently.\nDesign with Shadcn to ensure an optimal user experience on all devices, with particular attention to accessibility and ease of use.",
