@@ -113,7 +113,8 @@ const styles = StyleSheet.create({
     color: '#2c3e50',
   },
   skillGroup: {
-    marginBottom: 3,
+    marginTop: 2,      // ← ajouté
+    marginBottom: 4,   // ← augmenté
   },
   skillGroupName: {
     fontSize: 8,
@@ -151,13 +152,13 @@ const styles = StyleSheet.create({
     color: '#2c3e50',
   },
   sidebarSection: {
-    marginBottom: 5,
+    marginBottom: 10,  // ← augmenté
   },
   sidebarTitle: {
     fontSize: 9,
     fontWeight: 'bold',
     color: '#2c3e50',
-    marginBottom: 2,
+    marginBottom: 5,
     borderBottom: '1 solid #bdc3c7',
     paddingBottom: 1,
   },
@@ -175,6 +176,8 @@ const styles = StyleSheet.create({
   softRow: {
     flexDirection: 'row',
     flexWrap: 'wrap',
+    marginTop: 2,
+    marginBottom: 4, 
   },
   softCol: {
     width: '50%',

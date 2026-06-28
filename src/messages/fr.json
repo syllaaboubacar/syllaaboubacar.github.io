@@ -117,14 +117,14 @@
         "unaStartDate": "2018-07",
         "unaEndDate": "2022-06",
         "unaDescription": "Enseignant-chercheur en informatique. Responsable des TP en Python, bases de données et évolution des systèmes. Recherche sur l’analyse dynamique et la visualisation des interactions SQL/NoSQL. Membre du conseil facultaire et représentant aux Olympiades informatiques.Conception de schémas de bases de données et modélisation des données. Développement d'objets Oracle complexes (procédures, packages, triggers, pipelines). Analyse fonctionnelle avancée et manipulation de données SQL.",
-        "unaTechnologies": ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySql","DbMaria","Postgre","SprintBoot"],
+        "unaTechnologies": ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySQL","DbMaria","Postgre","SprintBoot"],
         "uadTitle": "Administrateur BDD & Responsable scolarité",  
         "uadCompany": "Université Ahmadou Dieng, Service scolarité",
         "uadLocation": "Conakry, Guinée",
         "uadStartDate": "2013-07",
         "uadEndDate": "2016-10",
         "uadDescription": "Administrateur de bases de données et responsable de scolarité. Gestion et maintenance des bases institutionnelles, automatisation des inscriptions et coordination avec la DSI. Garant de l’intégrité, de la performance et de la fiabilité des données académiques.",
-        "uadTechnologies":  ["Database", "SQL", "Db Admin"]
+        "uadTechnologies":  ["Database", "SQL", "DB Admin"]
       }
     },    
     "etude": {
@@ -154,10 +154,13 @@
       "competenceTitle": "Compétences techniques",
       "groups": [
         { "name": "Langues parlées:", "items": ["Français (C1)", "Anglais (B1)"] },
-        { "name": "Frontend", "items": ["Oracle Forms", "Oracle Report Builder", "React.js", "Next.js", "TypeScript", "Tailwind CSS", "Shadcn/ui"]},
-        { "name":"Backend", "items": ["Java Sprint Boot", "Oracle PL/SQL", "API REST", "API SOAP", "PHP", "Python"]},
-        { "name": "Outils", "items": ["SqlDeveloper","VS Code","IntelliJ","Maven","Git/GitHub","Docker","Postman", "Figma"] },
-        { "name": "Bases de données", "items": ["Oracle", "PostgreSQL", "MySQL", "MongoDB", "Cassandra"] } 
+        { "name": "Frontend", "items": ["Oracle Forms", "Oracle Report Builder", "React.js", "Next.js", "Tailwind CSS", "Shadcn/ui", "Boostrap"]},
+        { "name":"Backend", "items": ["Oracle PL/SQL", "Sprint Boot", "PHP", "Flask", "API REST", "API SOAP", "JPA/Hibernate", "Jquery"]},
+        { "name": "Outils & DevOps", "items": ["SqlDeveloper","VS Code","IntelliJ","Maven","Git/GitHub","Docker","Postman", "Figma", "JupilerNotebook", "Jira", "Gantt"] },
+        { "name": "Bases de données", "items": ["Oracle DB", "PostgreSQL", "MySQL", "MongoDB", "Cassandra", "Data vault"] },
+        { "name": "Language de programmation", "items": ["PL/SQL", "Java", "SQL", "Javascript", "TypeScript", "Python","Php","C", "C++", "Shell", "Bash"] } ,
+        { "name": "Systèmes d'exploitation", "items": ["Windows", "Linux", "(Ubuntu)", "(Redhat)", "Mac"] },
+        { "name": "Loisirs", "items": ["Sport", "Athletisme", "FootBall", "Tourisme", "Musique"] }
       ]
     }, 
     "Projets": {
