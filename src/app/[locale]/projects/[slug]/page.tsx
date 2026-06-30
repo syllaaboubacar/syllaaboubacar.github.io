@@ -44,7 +44,7 @@ export default async function ProjectDetailPage({ params }: Props) {
 
       {/* Ligne : bouton retour (gauche) + année (droite) */}
       <div className="flex items-center justify-between mb-4">
-        <Button asChild variant="ghost">
+        <Button asChild>
           <Link href="/projects">
             <ArrowLeft className="mr-2 h-4 w-4" /> {t("backToList")}
           </Link>
@@ -143,7 +143,7 @@ export default async function ProjectDetailPage({ params }: Props) {
             </a>
           </Button>        
         )}
-        {project.link && (        
+        {project.link && project.link !== '#' && (        
           <Button asChild size="lg">
             <a href={project.link} target="_blank">
               <Code2 className="mr-2 h-5 w-5" /> {t("demo")}
