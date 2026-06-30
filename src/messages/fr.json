@@ -88,10 +88,10 @@
   },
   "CvContent":{   
     "Profile": {
-      "profilTitle":"Profile",
+      "profilTitle":"Profil",
       "name": "Aboubacar SYLLA",
       "role": "Ingénieur de données / Développeur Full-Stack",
-      "bio": "Ingénieur full-stack et bases de données avec 10 d'expérience, j’associe la maîtrise d’Oracle PL/SQL à une veille technologique active (React, Typescript, Next.js, Java Spring Boot, cloud). Curieux et inventif, je transforme des besoins complexes en solutions élégantes. Mon expérience en enseignement renforce ma capacité à vulgariser et à fédérer des équipes pluridisciplinaires.",
+      "bio": "Ingénieur full-stack et bases de données avec 10 d'expérience, j’associe la maîtrise d’Oracle PL/SQL à une veille technologique active (React, Typescript, Next.js, Java SpringBoot, cloud). Curieux et creatif, je transforme des besoins complexes en solutions élégantes. Mon expérience en enseignement renforce ma capacité à vulgariser et à fédérer des équipes pluridisciplinaires.",
       "portfolio": "https://syllaaboubacar.github.io",
       "github": "https://github.com/syllaaboubacar",
       "linkedin": "https://www.linkedin.com/in/sylla-aboubacar-ba033312b"
@@ -109,22 +109,22 @@
         "boLocation": "Aéroport de Liege, Belgique",
         "boStartDate": "2022-07",
         "boEndDate": "2025-06",
-        "boDescription": "Développeur Full-stack et Oracle PL/SQL pour compagnies aériennes. Conception d’API REST/SOAP, intégration cloud OCI, développement mobile et optimisation de bases de données. Création de rapports, supervision d’infrastructure Linux/Windows, gestion proactive des incidents et support technique.La mise en œuvre de pipelines ETL pour l'analyse de données avec Power BI.",
-        "boTechnologies": ["PL/SQL", "SQL", "Oracle Forms", "Oracle report builder", "Php", "Javascript", "OCI(Cloud)","Boostrap","Web service (Saop, Rest)","Postman","Sql developer"],
+        "boDescription": "Développeur Full-stack Oracle PL/SQL pour compagnies aériennes. Conception d’API REST/SOAP, intégration cloud OCI, développement mobile et optimisation de bases de données. Création de rapports, supervision d’infrastructure Linux/Windows, gestion proactive des incidents et support technique. La mise en œuvre de pipelines ETL pour l'analyse de données avec Power BI.",
+        "boTechnologies": ["PL/SQL", "SQL", "Oracle Forms", "Oracle report builder", "Php", "JavaScript", "OCI(Cloud)","Boostrap","Web service (SAOP, REST)","Postman","SqlDeveloper"],
         "unaTitle": "Enseignant assistant et doctorant",  
         "unaCompany": "Université de Namur, Faculté d'informatique",
         "unaLocation": "Namur, Belgique",
         "unaStartDate": "2018-07",
         "unaEndDate": "2022-06",
-        "unaDescription": "Enseignant-chercheur en informatique. Responsable des TP en Python, bases de données et évolution des systèmes. Recherche sur l’analyse dynamique et la visualisation des interactions SQL/NoSQL. Membre du conseil facultaire et représentant aux Olympiades informatiques.Conception de schémas de bases de données et modélisation des données. Développement d'objets Oracle complexes (procédures, packages, triggers, pipelines). Analyse fonctionnelle avancée et manipulation de données SQL.",
-        "unaTechnologies": ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySQL","DbMaria","Postgre","SprintBoot"],
+        "unaDescription": "Enseignant-chercheur en informatique. Responsable des TP en Python, bases de données et évolution des systèmes. Recherche sur l’analyse dynamique et la visualisation des interactions SQL/NoSQL. Membre du conseil facultaire et représentant aux Olympiades informatiques. Conception de schémas de bases de données et modélisation des données. Développement d'objets Oracle complexes (procédures, packages, triggers, pipelines). Analyse fonctionnelle avancée et manipulation de données SQL.",
+        "unaTechnologies": ["Python", "SQL", "Java", "Database", "AspectJ", "JavaScript", "PL/SQL","MongoDb","MySQL","DbMaria","PostgreSQL","SpringBoot"],
         "uadTitle": "Administrateur BDD & Responsable scolarité",  
         "uadCompany": "Université Ahmadou Dieng, Service scolarité",
         "uadLocation": "Conakry, Guinée",
         "uadStartDate": "2013-07",
         "uadEndDate": "2016-10",
         "uadDescription": "Administrateur de bases de données et responsable de scolarité. Gestion et maintenance des bases institutionnelles, automatisation des inscriptions et coordination avec la DSI. Garant de l’intégrité, de la performance et de la fiabilité des données académiques.",
-        "uadTechnologies":  ["Database", "SQL", "DB Admin"]
+        "uadTechnologies":  ["MySQL", "SQL", "PostgreSQL"]
       }
     },    
     "etude": {
@@ -154,11 +154,11 @@
       "competenceTitle": "Compétences techniques",
       "groups": [
         { "name": "Langues parlées:", "items": ["Français (C1)", "Anglais (B1)"] },
-        { "name": "Frontend", "items": ["Oracle Forms", "Oracle Report Builder", "React.js", "Next.js", "Tailwind CSS", "Shadcn/ui", "Boostrap"]},
-        { "name":"Backend", "items": ["Oracle PL/SQL", "Sprint Boot", "PHP", "Flask", "API REST", "API SOAP", "JPA/Hibernate", "Jquery"]},
+        { "name": "Frontend", "items": ["Oracle Forms", "Oracle Report Builder", "React", "Next.js", "Tailwind CSS", "Shadcn/ui", "Boostrap"]},
+        { "name":"Backend", "items": ["Oracle PL/SQL", "SpringBoot", "Php", "Flask", "API REST", "API SOAP", "JPA/Hibernate", "Jquery"]},
         { "name": "Outils & DevOps", "items": ["SqlDeveloper","VS Code","IntelliJ","Maven","Git/GitHub","Docker","Postman", "Figma", "JupilerNotebook", "Jira", "Gantt"] },
         { "name": "Bases de données", "items": ["Oracle DB", "PostgreSQL", "MySQL", "MongoDB", "Cassandra", "Data vault"] },
-        { "name": "Language de programmation", "items": ["PL/SQL", "Java", "SQL", "Javascript", "TypeScript", "Python","Php","C", "C++", "Shell", "Bash"] } ,
+        { "name": "Language de programmation", "items": ["PL/SQL", "Java", "SQL", "JavaScript", "TypeScript", "Python","Php","C", "C++", "Shell", "Bash"] } ,
         { "name": "Systèmes d'exploitation", "items": ["Windows", "Linux", "(Ubuntu)", "(Redhat)", "Mac"] },
         { "name": "Loisirs", "items": ["Sport", "Athletisme", "FootBall", "Tourisme", "Musique"] }
       ]
@@ -166,10 +166,10 @@
     "Projets": {
       "projectTitle": "Projets",
       "items": [
-        { "name": "Mon Portfolio", "desc": "Création d’un espace en ligne épuré et ergonomique visant à présenter mon univers créatif et mes réalisations professionnelles. Le site propose une navigation intuitive avec un design entièrement adaptatif (mobile/desktop) et un système de thème clair/sombre personnalisable pour un confort de lecture optimal.", "link": "https://syllaaboubacar.github.io", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "React","Next-themes"] },
-        { "name": "Système de gestion de tickets", "desc": "Conception d'une application complète de gestion de tickets optimisée pour le support client. La plateforme permet la création et l'attribution rapide des demandes, avec un suivi granulaire organisé par catégories (support, incidents, projets et demandes de changement).", "link": "https://syasko-tickecting.vercel.app", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","Postgresql","Zod","React-hook-form", "Git"] },
-        { "name": "Analyse dynamique et visualisation des interactions entre bases de données et programmes dans les systèmes hybrides", "desc": "Développement d'un outil d'analyse et de compréhension des comportements de la logique de manipulation des base de données dans un système d'information.Etude de l'évolution historique des systèmes logiciels à un temps t-1 et t donnés avec la capture des traces Sql et NoSql.", "link": "https://aboubacar.dev", "tags": ["Java", "Python", "Sprint Boot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"] },
-        { "name": "Développement d’outils de visualisation pour l’analyse de données génomiques", "desc": "Développer une plateforme d'extraction, de nettoyage, de transformation des données pour des fins danalyse visuelle à l'image des outils comme Sniplay.", "link": "https://aboubacar.dev", "tags": ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts", "Java","Sprint Boot"] }
+        { "name": "Mon Portfolio", "desc": "Création d’un espace en ligne épuré et ergonomique visant à présenter mon univers créatif et mes réalisations professionnelles. Le site propose une navigation intuitive avec un design entièrement responsif (mobile/desktop) et un système de thème clair/sombre personnalisable pour un confort de lecture optimal.", "link": "https://syllaaboubacar.github.io", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "React","Next-themes"] },
+        { "name": "Système de gestion de tickets", "desc": "Conception d'une application complète de gestion de tickets optimisée pour le support client. La plateforme permet la création et l'attribution rapide des demandes, avec un suivi granulaire organisé par catégories (support, incidents, projets et demandes de changement).", "link": "https://syasko-tickecting.vercel.app", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "SpringBoot","React","RTK", "RTK-query","Hibernate","PostgreSQL","Oracle","Zod","React-hook-form", "Git"] },
+        { "name": "Analyse dynamique et visualisation des interactions entre bases de données et programmes dans les systèmes hybrides", "desc": "Développement d'un outil d'analyse et de compréhension des comportements de la logique de manipulation des base de données dans un système d'information. Etude de l'évolution historique des systèmes logiciels à un temps t-1 et t donnés avec la capture des traces Sql et NoSql.", "link": "https://aboubacar.dev", "tags": ["Java", "Python", "SpringBoot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"] },
+        { "name": "Développement d’outils de visualisation pour l’analyse de données génomiques", "desc": "Développer une plateforme d'extraction, de nettoyage, de transformation des données pour des fins danalyse visuelle à l'image des outils comme Sniplay.", "link": "https://aboubacar.dev", "tags": ["Python", "Flask", "Jquery", "JavaScript", "3D.js", "HighCharts", "Java","SpringBoot"] }
       ]
     }
   },

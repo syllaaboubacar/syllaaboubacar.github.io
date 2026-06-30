@@ -102,6 +102,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'wrap',
     marginTop: 1,
+    rowGap: 2, // ← INTERLIGNE entre les lignes
   },
   techItem: {
     fontSize: 6,
@@ -177,7 +178,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'wrap',
     marginTop: 2,
-    marginBottom: 4, 
+    marginBottom: 4,
+    rowGap: 3, // ← INTERLIGNE entre les lignes 
   },
   softCol: {
     width: '50%',

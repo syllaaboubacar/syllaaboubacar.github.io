@@ -88,10 +88,10 @@
   },
   "CvContent":{   
     "Profile": {
-      "profilTitle":"Profil",
+      "profilTitle":"Profile",
       "name": "Aboubacar SYLLA",
       "role": "Data Engineer / Full-Stack Developer",
-      "bio": "Full-stack & database engineer with 10 years of experience, bridging Oracle PL/SQL mastery with active tech watch (React, Typescript, Next.js, Java Spring Boot, cloud). Curious and inventive, I turn complex requirements into elegant solutions. My teaching experience enhances my ability to explain clearly and unite cross-functional teams.",
+      "bio": "Full-stack & database engineer with 10 years of experience, bridging Oracle PL/SQL mastery with active tech watch (React, Typescript, Next.js, Java SpringBoot, cloud). Curious and creative, I turn complex requirements into elegant solutions. My teaching experience enhances my ability to explain clearly and unite cross-functional teams.",
       "portfolio": "https://syllaaboubacar.github.io",
       "github": "https://github.com/syllaaboubacar",
       "linkedin": "https://www.linkedin.com/in/sylla-aboubacar-ba033312b"
@@ -109,22 +109,22 @@
         "boLocation": "Liege Airport, Belgium",
         "boStartDate": "2022-06",
         "boEndDate": "2025-06",
-        "boDescription": "Full-stacl and Oracle PL/SQL developer for airline software. Designs REST/SOAP APIs, manages OCI cloud infrastructure, develops mobile apps, and optimizes databases. Creates custom reports, oversees Linux/Windows systems, and handles proactive incident management and technical support.Implementation of ETL pipelines for data analysis using Power BI.",
-        "boTechnologies": ["PL/SQL", "SQL", "Oracle Forms", "Oracle report builder", "Php", "Javascript", "OCI(Cloud)","Boostrap","Web service (Saop, Rest)","Postman","Sql developer"],
+        "boDescription": "Full-stack Oracle PL/SQL developer for airline software. Designs REST/SOAP APIs, manages OCI cloud infrastructure, develops mobile apps, and optimizes databases. Creates custom reports, oversees Linux/Windows systems, and handles proactive incident management and technical support. Implementation of ETL pipelines for data analysis using Power BI.",
+        "boTechnologies": ["PL/SQL", "SQL", "Oracle Forms", "Oracle report builder", "Php", "JavaScript", "OCI(Cloud)","Boostrap","Web service (SAOP, REST)","Postman","SqlDeveloper"],
         "unaTitle": "Teaching Assistant and Ph.D. Candidate",  
         "unaCompany": "University of Namur, Department of Computer Science",
         "unaLocation": "Namur, Belgium",
         "unaStartDate": "2018-07",
         "unaEndDate": "2022-06",
-        "unaDescription": "Teaching assistant and researcher in computer science. Led practicals in Python, databases, and information system evolution. Researched dynamic analysis and visualization of SQL/NoSQL interactions. Served on the Faculty Council and represented the university at programming Olympiads.Database schema design and data modeling. Development of complex Oracle objects (procedures, packages, triggers, pipelines). Advanced functional analysis and SQL data manipulation.",
-        "unaTechnologies":  ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySQL","DbMaria","Postgre","SprintBoot"],
+        "unaDescription": "Teaching assistant and researcher in computer science. Led practicals in Python, databases, and information system evolution. Researched dynamic analysis and visualization of SQL/NoSQL interactions. Served on the Faculty Council and represented the university at programming Olympiads. Database schema design and data modeling. Development of complex Oracle objects (procedures, packages, triggers, pipelines). Advanced functional analysis and SQL data manipulation.",
+        "unaTechnologies":  ["Python", "SQL", "Java", "Database", "AspectJ", "JavaScript", "PL/SQL","MongoDb","MySQL","DbMaria","PostgreSQL","SpringBoot"],
         "uadTitle": "Database Administrator & Head of Academic Administration",  
         "uadCompany": "Ahmadou Dieng University, Registrar's Office",
         "uadLocation": "Conakry, Guinea",
         "uadStartDate": "2013-06",
         "uadEndDate": "2016-10",
         "uadDescription": "Database administrator and head of academic registration. Managed institutional databases, automated student enrollment processes, and coordinated with the IT department. Ensured data integrity, performance, and reliability across academic systems.",
-        "uadTechnologies":  ["Database", "SQL", "DB Admin"]
+        "uadTechnologies":  ["MySQL", "SQL", "PostgreSQL"]
       }
     },    
     "etude": {
@@ -154,11 +154,11 @@
       "competenceTitle": "Technical Skills",
       "groups": [
         { "name": "Spoken language", "items": ["French (C1)", "English (B1)"] },
-        { "name": "Frontend", "items": ["Oracle Forms", "Oracle Report Builder", "React.js", "Next.js", "Tailwind CSS", "Shadcn/ui", "Boostrap"]},
-        { "name":"Backend", "items": ["Oracle PL/SQL", "Sprint Boot", "PHP", "Flask", "API REST", "API SOAP", "JPA/Hibernate", "Jquery"]},
+        { "name": "Frontend", "items": ["Oracle Forms", "Oracle Report Builder", "React", "Next.js", "Tailwind CSS", "Shadcn/ui", "Boostrap"]},
+        { "name":"Backend", "items": ["Oracle PL/SQL", "SpringBoot", "Php", "Flask", "API REST", "API SOAP", "JPA/Hibernate", "Jquery"]},
         { "name": "Tools & DevOps", "items": ["SqlDeveloper","VS Code","IntelliJ","Maven","Git/GitHub","Docker","Postman", "Figma", "JupilerNotebook", "Jira", "Gantt"] },
         { "name": "Database", "items": ["Oracle DB", "PostgreSQL", "MySQL", "MongoDB", "Cassandra", "Data vault"] },
-        { "name": "Programming language", "items": ["PL/SQL", "Java", "SQL", "Javascript", "TypeScript", "Python","Php","C", "C++", "Shell", "Bash"] },
+        { "name": "Programming language", "items": ["PL/SQL", "Java", "SQL", "JavaScript", "TypeScript", "Python","Php","C", "C++", "Shell", "Bash"] },
         { "name": "Operating Systems", "items": ["Windows", "Linux", "(Ubuntu)", "(Redhat)", "Mac"] },
         { "name": "Hobbies", "items": ["Sport", "Athletics", "FootBall", "Tourism", "Music"] }
       ]
@@ -167,9 +167,9 @@
       "projectTitle": "Projects",
       "items": [
         { "name": "My Portfolio", "desc": "Creation of a clean, multilingual and ergonomic online space aimed at showcasing my creative universe and professional achievements. The site offers intuitive navigation with a fully responsive design (mobile/desktop) and a customizable light/dark theme system for optimal reading comfort.", "link": "https://syllaaboubacar.github.io", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "React","Next-themes"] },
-        { "name": "Ticket Management System", "desc": "Design of a comprehensive ticket management application optimized for customer support. The platform enables rapid ticket creation and assignment, with granular tracking organized by categories (support, incidents, projects, and change requests).", "link": "https://syasko-tickecting.vercel.app", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","Postgresql","Zod","React-hook-form", "Git"] },
-        { "name": "Dynamic analysis and visualization of interactions between databases and programs in hybrid systems", "desc": "Development of an analysis and comprehension tool for database manipulation logic behaviors within an information system.Study of the historical evolution of software systems at given times t-1 and t by capturing SQL and NoSQL traces.", "link": "https://aboubacar.dev", "tags": ["Java", "Python", "Sprint Boot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"] },
-        { "name": "Development of visualization tools for genomic data analysis", "desc": "Developing a data extraction, cleaning, and transformation platform for visual analysis purposes, similar to tools like Sniplay.", "link": "https://aboubacar.dev", "tags": ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts", "Java","Sprint Boot"] }
+        { "name": "Ticket Management System", "desc": "Design of a comprehensive ticket management application optimized for customer support. The platform enables rapid ticket creation and assignment, with granular tracking organized by categories (support, incidents, projects, and change requests).", "link": "https://syasko-tickecting.vercel.app", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "SpringBoot","React", "RTK", "RTK-query","Hibernate","PostgreSQL","Oracle","Zod","React-hook-form", "Git"] },
+        { "name": "Dynamic analysis and visualization of interactions between databases and programs in hybrid systems", "desc": "Development of an analysis and comprehension tool for database manipulation logic behaviors within an information system. Study of the historical evolution of software systems at given times t-1 and t by capturing SQL and NoSQL traces.", "link": "https://aboubacar.dev", "tags": ["Java", "Python", "SpringBoot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"] },
+        { "name": "Development of visualization tools for genomic data analysis", "desc": "Developing a data extraction, cleaning, and transformation platform for visual analysis purposes, similar to tools like Sniplay.", "link": "https://aboubacar.dev", "tags": ["Python", "Flask", "Jquery", "JavaScript", "3D.js", "HighCharts", "Java","SpringBoot"] }
       ]
     }
   },
