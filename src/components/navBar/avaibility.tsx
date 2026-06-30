@@ -36,7 +36,7 @@ export function Avaibility() {
       <span className="mx-1 text-gray-400">|</span>
 
       {/* Compteur de visites avec l'icône œil */}
-      <span className="flex items-center gap-1.5 text-sm text-gray-600 dark:text-gray-300">
+      <span className="flex items-center gap-1.5 text-sm">
         <Eye className="h-3.5 w-3.5" />
         <ViewsCounter />
       </span>
