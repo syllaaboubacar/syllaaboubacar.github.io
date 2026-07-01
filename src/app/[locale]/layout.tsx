@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages, getTranslations } from "next-intl/server";
 
+import { GoogleAnalytics } from '@next/third-parties/google'
+
 //--------------------------------
 import { SiteHeader } from "@/components/navBar/navHeader";
 import { AppSidebar } from "@/components/sideBar/appSideBar";
@@ -64,12 +66,15 @@ export default async function RootLayout({ children, params }: Props) {
                   </div>
                 </SidebarProvider>
               </div>
+
+              <GoogleAnalytics gaId="G-C4KP698CF9" />
               
             </TooltipProvider>      	  
             
           </NextIntlClientProvider>
 		
 	      </ThemeProvider>
+        
       </body>
     </html> 
 	
