@@ -25,7 +25,7 @@ export function ProjectCard({ project }: { project: Projectdata }) {
   const remainingTechnologies = project.technologies.length - 3;
 
   return (
-    <div className="group relative rounded-xl border overflow-hidden shadow-sm hover:shadow-md transition flex flex-col h-full bg-linear-to-r from-blue-50/60 to-sky-50/40 dark:from-blue-950/30 dark:to-sky-900/20">
+    <div className="group relative rounded-xl border-8 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col h-full bg-linear-to-r from-blue-50/60 to-sky-50/40 dark:from-blue-950/30 dark:to-sky-900/20">
       {/* Slider d'images */}
       <div className="relative aspect-video overflow-hidden bg-muted">
         <img
@@ -103,7 +103,7 @@ export function ProjectCard({ project }: { project: Projectdata }) {
           )}
         </div>
 
-        <Button asChild variant="outline" size="sm" className="w-full mt-3">
+        <Button asChild size="sm" className="w-full mt-3 border-amber-50">
           <Link href={`/projects/${project.slug}`}>{t("viewProject")}</Link>
         </Button>
       </div>
