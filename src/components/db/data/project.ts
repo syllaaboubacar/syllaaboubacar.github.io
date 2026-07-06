@@ -40,7 +40,7 @@ export const projects: Projectdata[] = [
     title: "titleTicket",
     description: "descriptionTicket",
     longDescription:"longDescriptionTicket",
-    images: ["/images/projects/project2/ticketing-presentation.png","/images/projects/project2/portfolio2.png","/images/projects/project2/ticketing-create-ticket.png","/images/projects/project2/ticketing-customer.png","/images/projects/project2/ticketing-inbox.png","/images/projects/project2/ticketing-notifications.png","/images/projects/project2/ticketing-team.png"], // pour le slider
+    images: ["/images/projects/project2/ticketing-presentation.png","/images/projects/project2/ticketing-notifications.png","/images/projects/project2/ticketing-monitoring.png","/images/projects/project2/ticketing-support.png","/images/projects/project2/ticketing-inbox.png","/images/projects/project2/ticketing-customer.png","/images/projects/project2/ticketing-create-ticket.png","/images/projects/project2/ticketing-team.png","/images/projects/project2/ticketing-user-ticket.png"], // pour le slider
     technologies: ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","Postgresql","Zod","React-hook-form", "Git"],
     link: "https://syasko-tickecting.vercel.app",
     github: "https://github.com/simplicekolomou/syasko-tickecting-front",
