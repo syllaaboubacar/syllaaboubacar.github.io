@@ -275,7 +275,7 @@
       "unaStartDate": "2018-07",
       "unaEndDate": "2022-06",
       "unaDescription": "Instructor for hands-on courses in Python programming, databases, database engineering, and information systems evolution (Bachelor’s and Master’s programs). Researcher and Ph.D. candidate in the dynamic analysis and visualization of database program manipulation in hybrid systems.",
-      "unaTechnologies":  ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySql","DbMaria","Postgre","SprintBoot"],
+      "unaTechnologies":  ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySql","DbMaria","PostgreSQL","Spring Boot"],
       "uadTitle": "Database Administrator & Head of Academic Administration",  
       "uadCompany": "Ahmadou Dieng University, Registrar's Office",
       "uadLocation": "Conakry, Guinea",
@@ -325,7 +325,7 @@
     "typescript": "TypeScript",
     "shadcn": "Shadcn UI / Tailwind CSS",
     "backend": "Backend",
-    "java": "Java Sprint Boot",
+    "java": "Java Spring Boot",
     "oraPlsql": "Oracle PL/SQL",
     "rest": "API REST",
     "soap": "API SOAP",
@@ -335,7 +335,7 @@
     "groups": [
       { "name": "Spoken language:", "items": ["French (C1)", "English (B1)"] },
       { "name": "Frontend", "items": ["Oracle Forms", "Oracle Report Builder", "React.js", "Next.js", "TypeScript", "Tailwind CSS", "Shadcn/ui"]},
-      { "name":"Backend", "items": ["Java Sprint Boot", "Oracle PL/SQL", "API REST", "API SOAP", "PHP", "Python"]},
+      { "name":"Backend", "items": ["Java Spring Boot", "Oracle PL/SQL", "API REST", "API SOAP", "PHP", "Python"]},
       { "name": "Outils", "items": ["SqlDeveloper","VS Code","IntelliJ","Maven","Git/GitHub","Docker","Postman", "Figma"] },
       { "name": "Bases de données", "items": ["Oracle", "PostgreSQL", "MyQL", "MongoDB", "Cassandra"] }
     ],
@@ -350,9 +350,9 @@
   "Projets": {
     "items": [
       { "name": "My Portfolio", "desc": "Personal portfolio website developed with Next.js, TypeScript and Tailwind CSS, Next-themes and Next-intl (i18n). Showcase of my projects, skills and experiences. Responsive design with subtle animations for a smooth user experience.\nThis platform is available on both Desktop and mobile versions.\nTo reach a diverse audience, I integrated a complete multilingual interface allowing visitors to switch languages instantly.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "React","Next-themes"] },
-      { "name": "Ticket Management System", "desc": "Ticket management application for customer support. Backend Java Spring Boot with REST API, frontend React (Next.js) + TypeScript. Features: ticket creation/assignment, status tracking, email notifications.\nFor proactive oversight, a monitoring module is connected to client infrastructures, while an email notification system ensures real-time communication on the progress of each ticket.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","Postgresql","Zod","React-hook-form", "Git"] },
-      { "name": "Dynamic analysis and visualization of interactions between databases and programs in hybrid systems", "desc": "Development of an analysis and comprehension tool for database manipulation logic behaviors within an information system.\nStudy of the historical evolution of software systems at given times t-1 and t by capturing SQL and NoSQL traces.", "tags": ["Java", "Python", "Sprint Boot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"] },
-      { "name": "Development of visualization tools for genomic data analysis", "desc": "Developing a data extraction, cleaning, and transformation platform for visual analysis purposes, similar to tools like Sniplay.\nTechnologies used: Python, Flask, Jquery, Javascript, 3D.js, HighCharts.", "tags": ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts", "Java","Sprint Boot"] }
+      { "name": "Ticket Management System", "desc": "Ticket management application for customer support. Backend Java Spring Boot with REST API, frontend React (Next.js) + TypeScript. Features: ticket creation/assignment, status tracking, email notifications.\nFor proactive oversight, a monitoring module is connected to client infrastructures, while an email notification system ensures real-time communication on the progress of each ticket.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","PostgreSQL","Zod","React-hook-form", "Git"] },
+      { "name": "Dynamic analysis and visualization of interactions between databases and programs in hybrid systems", "desc": "Development of an analysis and comprehension tool for database manipulation logic behaviors within an information system.\nStudy of the historical evolution of software systems at given times t-1 and t by capturing SQL and NoSQL traces.", "tags": ["Java", "Python", "Spring Boot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"] },
+      { "name": "Development of visualization tools for genomic data analysis", "desc": "Developing a data extraction, cleaning, and transformation platform for visual analysis purposes, similar to tools like Sniplay.\nTechnologies used: Python, Flask, Jquery, Javascript, 3D.js, HighCharts.", "tags": ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts", "Java","Spring Boot"] }
     ],
     "title": "My Projects",
     "subtitle": "Discover my recent work",

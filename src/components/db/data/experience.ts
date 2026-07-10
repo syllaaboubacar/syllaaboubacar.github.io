@@ -15,7 +15,7 @@ export const experiences = [
     startDate: "2018-07",
     endDate: "2022-06",
     description: "unaDescription",
-    technologies: ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySql","DbMaria","Postgre","SprintBoot"]
+    technologies: ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySql","DbMaria","PostgreSQL","Spring Boot"]
   },
   {
     title: "uadTitle",
@@ -24,6 +24,6 @@ export const experiences = [
     startDate: "2013-07",
     endDate: "2016-10",
     description: "uadDescription",
-    technologies: ["Database", "SQL", "Db Admin"] 
+    technologies: ["MySQL", "SQL", "PostgreSQL"] 
   },
 ];

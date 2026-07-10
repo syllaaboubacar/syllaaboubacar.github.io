@@ -275,7 +275,7 @@
       "unaStartDate": "2018-07",
       "unaEndDate": "2022-06",
       "unaDescription": "Chargé des travaux pratiques en programmation Python, en Base de données, en ingénierie des bases de données et en évolution des systèmes d'informations (Bachélier et Master). Chercheur et doctorant en analyse dynamique et visualisation de la manipulation des programmes de base de données dans les systèmes hybrides.",
-      "unaTechnologies": ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySql","DbMaria","Postgre","SprintBoot"],
+      "unaTechnologies": ["Python", "SQL", "Java", "Database", "AspectJ", "Javascript", "PL/SQL","MongoDb","MySql","DbMaria","PostgreSQL","Spring Boot"],
       "uadTitle": "Administrateur BDD & Responsable scolarité",  
       "uadCompany": "Université Ahmadou Dieng, Service scolarité",
       "uadLocation": "Conakry, Guinée",
@@ -325,7 +325,7 @@
     "typescript": "TypeScript",
     "shadcn": "Shadcn UI / Tailwind CSS",
     "backend": "Backend",
-    "java": "Java Sprint Boot",
+    "java": "Java Spring Boot",
     "oraPlsql": "Oracle PL/SQL",
     "rest": "API REST",
     "soap": "API SOAP",
@@ -335,7 +335,7 @@
     "groups": [
       { "name": "Langues parlées:", "items": ["Français (C1)", "Anglais (B1)"] },
       { "name": "Frontend", "items": ["Oracle Forms", "Oracle Report Builder", "React.js", "Next.js", "TypeScript", "Tailwind CSS", "Shadcn/ui"]},
-      { "name":"Backend", "items": ["Java Sprint Boot", "Oracle PL/SQL", "API REST", "API SOAP", "PHP", "Python"]},
+      { "name":"Backend", "items": ["Java Spring Boot", "Oracle PL/SQL", "API REST", "API SOAP", "PHP", "Python"]},
       { "name": "Outils", "items": ["SqlDeveloper","VS Code","IntelliJ","Maven","Git/GitHub","Docker","Postman", "Figma"] },
       { "name": "Bases de données", "items": ["Oracle", "PostgreSQL", "MySQL", "MongoDB", "Cassandra"] } 
     ],
@@ -350,9 +350,9 @@
   "Projets": {
     "items": [
       { "name": "Mon Portfolio", "desc": "Création d’un espace en ligne épuré et ergonomique visant à présenter mon univers créatif et mes réalisations professionnelles.Le site propose une navigation intuitive avec un design entièrement adaptatif (mobile/desktop) et un système de thème clair/sombre personnalisable pour un confort de lecture optimal.\nAfin de toucher une audience variée, j’ai intégré une interface multilingue complète permettant aux visiteurs de basculer instantanément la langue.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "React","Next-themes"] },
-      { "name": "Système de gestion de tickets", "desc": "Conception d'une application complète de gestion de tickets optimisée pour le support client. La plateforme permet la création et l'attribution rapide des demandes, avec un suivi granulaire organisé par catégories (support, incidents, projets et demandes de changement).\nPour une supervision proactive, un module de monitoring est connecté aux infrastructures des clients, tandis qu'un système de notifications par email assure une communication en temps réel sur l'avancement de chaque ticket.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","Postgresql","Zod","React-hook-form", "Git"] },
-      { "name": "Analyse dynamique et visualisation des interactions entre bases de données et programmes dans les systèmes hybrides", "desc": "Développement d'un outil d'analyse et de compréhension des comportements de la logique de manipulation des base de données dans un système d'information.Etude de l'évolution historique des systèmes logiciels à un temps t-1 et t donnés avec la capture des traces Sql et NoSql.", "tags": ["Java", "Python", "Sprint Boot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"] },
-      { "name": "Développement d’outils de visualisation pour l’analyse de données génomiques", "desc": "Développer une plateforme d'extraction, de nettoyage, de transformation des données pour des fins danalyse visuelle à l'image des outils comme Sniplay.", "tags": ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts", "Java","Sprint Boot"] }
+      { "name": "Système de gestion de tickets", "desc": "Conception d'une application complète de gestion de tickets optimisée pour le support client. La plateforme permet la création et l'attribution rapide des demandes, avec un suivi granulaire organisé par catégories (support, incidents, projets et demandes de changement).\nPour une supervision proactive, un module de monitoring est connecté aux infrastructures des clients, tandis qu'un système de notifications par email assure une communication en temps réel sur l'avancement de chaque ticket.", "tags": ["Next.js", "Tailwind CSS", "TypeScript", "next-intl", "Shadcn/ui", "Spring-boot","React","RTK-query","Hibernate","PostgreSQL","Zod","React-hook-form", "Git"] },
+      { "name": "Analyse dynamique et visualisation des interactions entre bases de données et programmes dans les systèmes hybrides", "desc": "Développement d'un outil d'analyse et de compréhension des comportements de la logique de manipulation des base de données dans un système d'information.Etude de l'évolution historique des systèmes logiciels à un temps t-1 et t donnés avec la capture des traces Sql et NoSql.", "tags": ["Java", "Python", "Spring Boot", "AspectJ", "JavaScript", "MongoDB","SQL","Antlr","NoSql"] },
+      { "name": "Développement d’outils de visualisation pour l’analyse de données génomiques", "desc": "Développer une plateforme d'extraction, de nettoyage, de transformation des données pour des fins danalyse visuelle à l'image des outils comme Sniplay.", "tags": ["Python", "Flask", "Jquery", "Javascript", "3D.js", "HighCharts", "Java","Spring Boot"] }
     ],
     "title": "Mes projets",
     "subtitle": "Découvrez mes réalisations récentes",

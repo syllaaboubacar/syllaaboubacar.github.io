@@ -30,7 +30,7 @@ export const skillsData: SkillCategory[] = [
     icon: "⚙️",
     color: "from-blue-50/60 to-sky-50/40",
     skills: [
-      { name: "Java Sprint Boot", level: "Avancé" },
+      { name: "Java Spring Boot", level: "Avancé" },
       { name: "Oracle PL/SQL", level: "Avancé" },
       { name: "API REST", level: "Avancé" },
       { name: "API SOAP", level: "Avancé" },
